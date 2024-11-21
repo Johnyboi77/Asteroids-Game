@@ -12,16 +12,8 @@ def main():
     running = True
     while running:
         for event in pygame.event.get():
-            if event.type == pygame.QUIT:
+            if event.type = pygame.QUIT:
                 running = False
-
-        # Fill the screen with black color
-        screen.fill((0, 0, 0))
-
-        # Refresh the screen
-        pygame.display.flip()
-
-    pygame.quit()
 
 if __name__ == "__main__":
     main()

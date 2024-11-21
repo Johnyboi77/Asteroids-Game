@@ -17,3 +17,11 @@
 2024-11-21 09:23:06.348 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
 2024-11-21 09:23:09.919 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
 2024-11-21 09:23:26.384 [info] Discover tests for workspace name: undefined - uri: c:/Users/knigh/AppData/Roaming/Code/User/settings.json
+2024-11-21 09:28:14.453 [info] Python interpreter path: ./venv/bin/python
+2024-11-21 10:21:50.307 [info] CreateEnv Trigger - Skipping for /root/workspace/github.com/Johnyboi77/Asteroids/main.py
+2024-11-21 10:21:50.617 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
+2024-11-21 10:32:36.459 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
+2024-11-21 10:34:02.487 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
+2024-11-21 10:53:07.635 [info] > ./venv/bin/python ~/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/normalizeSelection.py
+2024-11-21 10:53:57.338 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
+2024-11-21 10:55:42.192 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
