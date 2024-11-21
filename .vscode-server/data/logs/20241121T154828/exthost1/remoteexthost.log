@@ -1,0 +1,16 @@
+2024-11-21 15:48:30.932 [info] Extension host with pid 462 started
+2024-11-21 15:48:30.956 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/12378d868cd1f73fdeb55096921fa0c7/vscode.lock': Lock acquired.
+2024-11-21 15:48:31.232 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-21 15:48:31.235 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-11-21 15:48:31.968 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-21 15:48:31.969 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-21 15:48:31.969 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-21 15:48:32.384 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-21 15:48:32.929 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-21 15:48:32.930 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-21 15:48:33.399 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-11-21 15:48:33.400 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-11-21 15:48:34.449 [info] Eager extensions activated
+2024-11-21 15:48:34.449 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-21 15:48:34.450 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-21 15:53:39.906 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

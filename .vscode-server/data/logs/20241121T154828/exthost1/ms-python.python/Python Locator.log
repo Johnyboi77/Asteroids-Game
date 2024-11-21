@@ -1,0 +1,27 @@
+2024-11-21 15:48:34.513 [info] Starting Python Locator /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python-env-tools/bin/pet server
+2024-11-21 15:48:34.952 [info] Discovered env: /bin/python3
+2024-11-21 15:48:34.959 [info] Discovered env: /usr/bin/python3
+2024-11-21 15:48:34.973 [info] Discovered env: /root/workspace/venv/bin/python
+2024-11-21 15:48:34.988 [info] Resolved Python Environment /root/workspace/venv/bin/python
+2024-11-21 15:48:41.618 [info] Locator Conda took 8.80564805s
+2024-11-21 15:48:41.618 [info] Locator Homebrew took 134.8µs
+2024-11-21 15:48:41.618 [info] Locator LinuxGlobal took 63.257178ms
+2024-11-21 15:48:41.618 [info] Locator PipEnv took 28.964µs
+2024-11-21 15:48:41.618 [info] Locator Poetry took 47.839917ms
+2024-11-21 15:48:41.618 [info] Locator PyEnv took 48.557135ms
+2024-11-21 15:48:41.618 [info] Locator Venv took 953.503µs
+2024-11-21 15:48:41.618 [info] Locator VirtualEnv took 560.051µs
+2024-11-21 15:48:41.618 [info] Locator VirtualEnvWrapper took 1.130845ms
+2024-11-21 15:48:41.618 [info] Locator GlobalVirtualEnvs took 11.831514ms
+2024-11-21 15:48:41.618 [info] Locator Locators took 8.806627919s
+2024-11-21 15:48:41.618 [info] Locator Path took 418.621923ms
+2024-11-21 15:48:41.618 [info] Locator Workspaces took 121.639092ms
+2024-11-21 15:48:41.618 [info] Refresh completed in 8806ms
+2024-11-21 15:56:07.750 [info] Resolved Python Environment /root/workspace/venv/bin/python
+2024-11-21 15:56:42.561 [info] Resolved Python Environment /root/workspace/venv/bin/python
+2024-11-21 15:57:29.859 [info] Resolved Python Environment /root/workspace/venv/bin/python
+2024-11-21 16:04:54.151 [info] Resolved Python Environment /root/workspace/venv/bin/python
+2024-11-21 16:11:36.086 [info] Resolved Python Environment /root/workspace/venv/bin/python
+2024-11-21 16:12:16.719 [info] Resolved Python Environment /root/workspace/venv/bin/python
+2024-11-21 16:13:47.047 [info] Resolved Python Environment /root/workspace/venv/bin/python
+2024-11-21 16:16:28.944 [info] Resolved Python Environment /root/workspace/venv/bin/python
