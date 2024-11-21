@@ -1,0 +1,23 @@
+2024-11-16 13:06:29.636 [info] (Client) Pylance async client (2024.11.2) started with python extension (2024.20.0)
+2024-11-16 13:06:30.164 [info] [Info  - 1:06:30 PM] (774) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist
+2024-11-16 13:06:30.165 [info] [Info  - 1:06:30 PM] (774) Pylance language server 2024.11.2 (pyright version 1.1.386, commit 4180fa21) starting
+2024-11-16 13:06:30.165 [info] [Info  - 1:06:30 PM] (774) Starting service instance "workspace"
+2024-11-16 13:06:30.266 [info] [Info  - 1:06:30 PM] (774) Setting environmentName for service "workspace": "3.12.3 (global)"
+2024-11-16 13:06:30.270 [info] [Info  - 1:06:30 PM] (774) Setting pythonPath for service "workspace": "/usr/bin/python3"
+2024-11-16 13:06:30.272 [info] [Info  - 1:06:30 PM] (774) No include entries specified; assuming /root/workspace
+2024-11-16 13:06:30.273 [info] [Info  - 1:06:30 PM] (774) Auto-excluding **/node_modules
+2024-11-16 13:06:30.273 [info] [Info  - 1:06:30 PM] (774) Auto-excluding **/__pycache__
+2024-11-16 13:06:30.273 [info] [Info  - 1:06:30 PM] (774) Auto-excluding **/.*
+2024-11-16 13:06:30.319 [info] [Info  - 1:06:30 PM] (774) Assuming Python version 3.12.3.final.0
+2024-11-16 13:06:30.579 [info] [Info  - 1:06:30 PM] (774) Found 1 source file
+2024-11-16 13:06:31.843 [info] [Info  - 1:06:31 PM] (774) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist
+2024-11-16 13:06:31.844 [info] [Info  - 1:06:31 PM] (774) Background analysis(1) started
+2024-11-16 13:06:32.642 [info] [Info  - 1:06:32 PM] (774) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist (index)
+2024-11-16 13:06:32.651 [info] [Info  - 1:06:32 PM] (774) Indexing(2) started
+2024-11-16 13:06:34.214 [info] [Info  - 1:06:34 PM] (774) [BG(1)] Long operation: SemanticTokens full at file:///root/workspace/github.com/Johnyboi77/bookbot/main.py (2171ms)
+2024-11-16 13:06:35.039 [info] [Info  - 1:06:35 PM] (774) [IDX(2)] Long operation: scan packages file:///root/workspace (2207ms)
+2024-11-16 13:06:35.039 [info] [Info  - 1:06:35 PM] (774) scanned(2) 77 files over 1 exec env
+2024-11-16 13:06:40.922 [info] [Info  - 1:06:40 PM] (774) [IDX(2)] Long operation: index execution environment file:///root/workspace (5392ms)
+2024-11-16 13:06:40.975 [info] [Info  - 1:06:40 PM] (774) [IDX(2)] Long operation: index packages file:///root/workspace (5458ms)
+2024-11-16 13:06:40.975 [info] [Info  - 1:06:40 PM] (774) indexed(2) 77 files over 1 exec env
+2024-11-16 13:06:41.065 [info] [Info  - 1:06:41 PM] (774) Indexing finished(2).

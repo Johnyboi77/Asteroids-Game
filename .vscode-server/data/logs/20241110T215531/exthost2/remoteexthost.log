@@ -1,0 +1,15 @@
+2024-11-10 22:00:29.372 [info] Extension host with pid 7743 started
+2024-11-10 22:00:29.417 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-10 22:00:29.434 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/12378d868cd1f73fdeb55096921fa0c7/vscode.lock': Lock acquired.
+2024-11-10 22:00:29.547 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-10 22:00:29.548 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-10 22:00:30.004 [info] Eager extensions activated
+2024-11-10 22:00:30.004 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-10 22:00:30.005 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-10 22:01:53.241 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-10 22:01:58.108 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-11-10 22:01:58.671 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-11-10 22:01:58.671 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-11-10 22:12:27.402 [info] Extension host terminating: received terminate message from renderer
+2024-11-10 22:12:27.406 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/12378d868cd1f73fdeb55096921fa0c7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-11-10 22:12:27.586 [info] Extension host with pid 7743 exiting with code 0

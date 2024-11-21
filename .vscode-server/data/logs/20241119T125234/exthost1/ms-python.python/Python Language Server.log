@@ -1,0 +1,19 @@
+2024-11-19 12:52:42.081 [info] (Client) Pylance async client (2024.11.2) started with python extension (2024.20.0)
+2024-11-19 12:52:42.952 [info] [Info  - 12:52:42 PM] (795) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist
+2024-11-19 12:52:42.954 [info] [Info  - 12:52:42 PM] (795) Pylance language server 2024.11.2 (pyright version 1.1.386, commit 4180fa21) starting
+2024-11-19 12:52:42.954 [info] [Info  - 12:52:42 PM] (795) Starting service instance "workspace"
+2024-11-19 12:52:43.033 [info] [Info  - 12:52:43 PM] (795) Setting environmentName for service "workspace": "3.12.3 (global)"
+2024-11-19 12:52:43.035 [info] [Info  - 12:52:43 PM] (795) Setting pythonPath for service "workspace": "/bin/python3"
+2024-11-19 12:52:43.036 [info] [Info  - 12:52:43 PM] (795) No include entries specified; assuming /root/workspace
+2024-11-19 12:52:43.051 [info] [Info  - 12:52:43 PM] (795) Auto-excluding **/node_modules
+2024-11-19 12:52:43.051 [info] [Info  - 12:52:43 PM] (795) Auto-excluding **/__pycache__
+2024-11-19 12:52:43.051 [info] [Info  - 12:52:43 PM] (795) Auto-excluding **/.*
+2024-11-19 12:52:43.086 [info] [Info  - 12:52:43 PM] (795) Assuming Python version 3.12.3.final.0
+2024-11-19 12:52:43.469 [info] [Info  - 12:52:43 PM] (795) Found 1 source file
+2024-11-19 12:52:44.471 [info] [Info  - 12:52:44 PM] (795) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist
+2024-11-19 12:52:44.480 [info] [Info  - 12:52:44 PM] (795) Background analysis(1) started
+2024-11-19 12:52:44.839 [info] [Info  - 12:52:44 PM] (795) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist (index)
+2024-11-19 12:52:44.839 [info] [Info  - 12:52:44 PM] (795) Indexing(2) started
+2024-11-19 12:52:46.555 [info] [Info  - 12:52:46 PM] (795) scanned(2) 77 files over 1 exec env
+2024-11-19 12:52:47.113 [info] [Info  - 12:52:47 PM] (795) indexed(2) 77 files over 1 exec env
+2024-11-19 12:52:47.265 [info] [Info  - 12:52:47 PM] (795) Indexing finished(2).

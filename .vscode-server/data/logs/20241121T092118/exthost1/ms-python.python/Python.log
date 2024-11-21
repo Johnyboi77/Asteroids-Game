@@ -1,0 +1,19 @@
+2024-11-21 09:21:25.948 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-11-21 09:21:25.948 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-11-21 09:21:25.948 [info] Experiment 'pythonTestAdapter' is active
+2024-11-21 09:21:25.948 [info] Native locator: Refresh started
+2024-11-21 09:21:25.948 [info] Native locator: Refresh started
+2024-11-21 09:21:26.045 [info] Python interpreter path: /bin/python3
+2024-11-21 09:21:27.281 [info] > pyenv which python
+2024-11-21 09:21:27.281 [info] cwd: .
+2024-11-21 09:21:27.922 [info] > /usr/bin/python3 ~/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariables.py
+2024-11-21 09:21:27.923 [info] shell: bash
+2024-11-21 09:21:27.992 [info] Prepending environment variable PATH in collection with /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/bash:/root/workspace/venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-11-21 09:21:27.992 [info] Prepending environment variable PS1 in collection with (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-11-21 09:21:27.993 [info] Send text to terminal: /usr/bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/bash/envVars.txt
+2024-11-21 09:21:28.821 [info] Starting Pylance language server.
+2024-11-21 09:21:34.377 [info] Native locator: Refresh finished in 10502 ms
+2024-11-21 09:23:05.295 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
+2024-11-21 09:23:06.348 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
+2024-11-21 09:23:09.919 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
+2024-11-21 09:23:26.384 [info] Discover tests for workspace name: undefined - uri: c:/Users/knigh/AppData/Roaming/Code/User/settings.json

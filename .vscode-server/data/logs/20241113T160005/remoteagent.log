@@ -1,0 +1,16 @@
+2024-11-13 16:00:05.875 [info] 
+
+
+
+
+2024-11-13 16:00:05.909 [info] Extension host agent started.
+2024-11-13 16:00:06.164 [info] [127.0.0.1][d8c9593c][ManagementConnection] New connection established.
+2024-11-13 16:00:06.577 [info] [127.0.0.1][bd65318b][ExtensionHostConnection] New connection established.
+2024-11-13 16:00:06.594 [info] [127.0.0.1][bd65318b][ExtensionHostConnection] <541> Launched Extension Host Process.
+2024-11-13 16:00:15.300 [info] Getting Manifest... ms-python.python
+2024-11-13 16:00:15.410 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-11-13 16:00:29.815 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 7966ms.
+2024-11-13 16:00:44.234 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64: ms-python.python
+2024-11-13 16:00:44.265 [info] Renamed to /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64
+2024-11-13 16:00:44.335 [info] Marked extension as uninstalled ms-python.python-2024.18.1-linux-x64
+2024-11-13 16:00:44.374 [info] Extension installed successfully: ms-python.python file:///root/.vscode-server/extensions/extensions.json

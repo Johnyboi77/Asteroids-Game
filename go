@@ -1,0 +1,1 @@
+/root/.local/opt/go-bin-v1.23.2

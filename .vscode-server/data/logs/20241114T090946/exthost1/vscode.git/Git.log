@@ -1,0 +1,31 @@
+2024-11-14 09:09:59.090 [info] [main] Log level: Info
+2024-11-14 09:09:59.090 [info] [main] Validating found git in: "git"
+2024-11-14 09:09:59.090 [info] [main] Using git "2.43.0" from "git"
+2024-11-14 09:09:59.091 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-14 09:09:59.091 [info] > git rev-parse --show-toplevel [457ms]
+2024-11-14 09:09:59.091 [info] > git rev-parse --show-toplevel [361ms]
+2024-11-14 09:09:59.113 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-11-14 09:09:59.203 [info] [Model][openRepository] Opened repository: /root/workspace/github.com/Johnyboi77/bookbot
+2024-11-14 09:09:59.318 [info] > git rev-parse --show-toplevel [32ms]
+2024-11-14 09:09:59.329 [info] > git config --get commit.template [47ms]
+2024-11-14 09:09:59.379 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2024-11-14 09:09:59.445 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [36ms]
+2024-11-14 09:09:59.528 [info] > git status -z -uall [33ms]
+2024-11-14 09:09:59.529 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+2024-11-14 09:09:59.629 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [33ms]
+2024-11-14 09:09:59.658 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/workspace/github.com/Johnyboi77/bookbot/main.py [171ms]
+2024-11-14 09:09:59.986 [info] > git check-ignore -v -z --stdin [34ms]
+2024-11-14 09:09:59.999 [info] > git config --local branch.main.vscode-merge-base [352ms]
+2024-11-14 09:10:00.015 [info] > git config --get commit.template [382ms]
+2024-11-14 09:10:00.054 [info] > git show --textconv :main.py [16ms]
+2024-11-14 09:10:00.054 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [49ms]
+2024-11-14 09:10:00.134 [info] > git merge-base refs/heads/main refs/remotes/origin/main [54ms]
+2024-11-14 09:10:00.157 [info] > git ls-files --stage -- /root/workspace/github.com/Johnyboi77/bookbot/main.py [105ms]
+2024-11-14 09:10:00.201 [info] > git cat-file -s 7017275db5819e1e0ca8e465f5ce12992d429544 [33ms]
+2024-11-14 09:10:00.212 [info] > git diff --name-status -z --diff-filter=ADMR ad495f3d740bbd18a64a615ea562779ef51f017c...refs/remotes/origin/main [56ms]
+2024-11-14 09:10:00.213 [info] > git rev-list --count 3588882ca6a85df3fae3b97f3077b1ef94da5a64.. -- /root/workspace/github.com/Johnyboi77/bookbot/main.py [92ms]
+2024-11-14 09:10:00.220 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [109ms]
+2024-11-14 09:10:00.249 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n6 --follow -- /root/workspace/github.com/Johnyboi77/bookbot/main.py [30ms]
+2024-11-14 09:10:00.661 [info] > git status -z -uall [14ms]
+2024-11-14 09:10:00.676 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2024-11-14 09:10:06.091 [info] > git rev-parse --show-toplevel [83ms]

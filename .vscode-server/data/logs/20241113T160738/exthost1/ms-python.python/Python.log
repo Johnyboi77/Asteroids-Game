@@ -1,0 +1,36 @@
+2024-11-13 16:07:42.578 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-11-13 16:07:42.578 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-11-13 16:07:42.578 [info] Experiment 'pythonTestAdapter' is active
+2024-11-13 16:07:42.578 [info] Native locator: Refresh started
+2024-11-13 16:07:42.578 [info] Native locator: Refresh started
+2024-11-13 16:07:42.592 [info] > pyenv which python
+2024-11-13 16:07:42.592 [info] cwd: .
+2024-11-13 16:07:42.967 [info] Python interpreter path: /usr/bin/python3
+2024-11-13 16:07:44.009 [info] Starting Pylance language server.
+2024-11-13 16:07:46.654 [info] Native locator: Refresh finished in 5551 ms
+2024-11-13 16:07:55.743 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 16:07:58.969 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 16:22:24.864 [info] CreateEnv Trigger - Skipping for /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 16:22:25.096 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 16:25:05.064 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 16:25:45.473 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 16:31:33.388 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 16:32:19.551 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 16:35:48.920 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 16:36:11.507 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 16:37:26.418 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 16:37:50.529 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 16:40:58.787 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 16:59:55.294 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 17:01:53.289 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 17:04:32.141 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 17:08:22.251 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 17:11:09.753 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 17:29:21.494 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 17:30:26.791 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 17:30:41.981 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 17:34:29.275 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 17:35:59.340 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 17:36:06.504 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 17:36:11.345 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 17:36:12.747 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py

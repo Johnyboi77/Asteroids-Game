@@ -1,0 +1,19 @@
+[user]
+	name = github_username_here
+	email = email@example.com
+	name = ThePrimeagen
+	name = Johnnboi
+[init]
+	defaultBranch = main
+[webflyx]
+	ceo = ThePrimeagen
+	cto = TheLaneagen
+	valuation = mid
+[credential "https://github.com"]
+	helper = 
+	helper = !/root/.local/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/root/.local/bin/gh auth git-credential
+[pull]
+	rebase = true

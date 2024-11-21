@@ -1,0 +1,21 @@
+2024-11-10 21:59:19.064 [info] (Client) Pylance async client (2024.11.1) started with python extension (2024.18.1)
+2024-11-10 21:59:19.767 [info] [Info  - 9:59:19 PM] (7519) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.1/dist
+2024-11-10 21:59:19.769 [info] [Info  - 9:59:19 PM] (7519) Pylance language server 2024.11.1 (pyright version 1.1.386, commit 4180fa21) starting
+2024-11-10 21:59:19.769 [info] [Info  - 9:59:19 PM] (7519) Starting service instance "worldbanc"
+2024-11-10 21:59:19.830 [info] [Info  - 9:59:19 PM] (7519) Setting environmentName for service "worldbanc": "3.12.3 (global)"
+2024-11-10 21:59:19.831 [info] [Info  - 9:59:19 PM] (7519) Setting pythonPath for service "worldbanc": "/usr/bin/python3"
+2024-11-10 21:59:19.831 [info] [Info  - 9:59:19 PM] (7519) No include entries specified; assuming /root/worldbanc
+2024-11-10 21:59:19.833 [info] [Info  - 9:59:19 PM] (7519) Auto-excluding **/node_modules
+2024-11-10 21:59:19.833 [info] [Info  - 9:59:19 PM] (7519) Auto-excluding **/__pycache__
+2024-11-10 21:59:19.833 [info] [Info  - 9:59:19 PM] (7519) Auto-excluding **/.*
+2024-11-10 21:59:19.877 [info] [Info  - 9:59:19 PM] (7519) Assuming Python version 3.12.3.final.0
+2024-11-10 21:59:19.998 [info] [Info  - 9:59:19 PM] (7519) No source files found.
+2024-11-10 21:59:20.911 [info] [Info  - 9:59:20 PM] (7519) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.1/dist
+2024-11-10 21:59:20.918 [info] [Info  - 9:59:20 PM] (7519) Background analysis(1) started
+2024-11-10 21:59:21.204 [info] [Info  - 9:59:21 PM] (7519) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.1/dist (index)
+2024-11-10 21:59:21.204 [info] [Info  - 9:59:21 PM] (7519) Indexing(2) started
+2024-11-10 21:59:22.648 [info] [Info  - 9:59:22 PM] (7519) scanned(2) 77 files over 1 exec env
+2024-11-10 21:59:25.424 [info] [Info  - 9:59:25 PM] (7519) [IDX(2)] Long operation: index execution environment file:///root/worldbanc (2420ms)
+2024-11-10 21:59:25.454 [info] [Info  - 9:59:25 PM] (7519) [IDX(2)] Long operation: index packages file:///root/worldbanc (2460ms)
+2024-11-10 21:59:25.454 [info] [Info  - 9:59:25 PM] (7519) indexed(2) 77 files over 1 exec env
+2024-11-10 21:59:25.505 [info] [Info  - 9:59:25 PM] (7519) Indexing finished(2).

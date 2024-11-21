@@ -1,0 +1,12 @@
+2024-11-13 16:00:12.864 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-11-13 16:00:12.864 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-11-13 16:00:12.864 [info] Experiment 'pythonTestAdapter' is active
+2024-11-13 16:00:12.864 [info] Native locator: Refresh started
+2024-11-13 16:00:12.864 [info] Native locator: Refresh started
+2024-11-13 16:00:12.932 [info] > pyenv which python
+2024-11-13 16:00:12.932 [info] cwd: .
+2024-11-13 16:00:13.954 [info] Python interpreter path: /usr/bin/python3
+2024-11-13 16:00:17.057 [info] Starting Pylance language server.
+2024-11-13 16:00:36.699 [info] Native locator: Refresh finished in 26746 ms
+2024-11-13 16:05:47.218 [info] CreateEnv Trigger - Skipping for /root/workspace/github.com/Johnyboi77/bookbot/main.py
+2024-11-13 16:05:47.367 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/bookbot/main.py
