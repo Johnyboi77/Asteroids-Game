@@ -1,0 +1,14 @@
+{
+  "environment": {
+    "executable": "/root/workspace/Asteroids/venv/bin/python",
+    "prefix": "/root/workspace/Asteroids/venv",
+    "version": "3.12.3.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/root/workspace/Asteroids/venv/bin/python",
+      "/root/workspace/Asteroids/venv/bin/python3",
+      "/root/workspace/Asteroids/venv/bin/python3.12"
+    ]
+  },
+  "symlinks": []
+}

@@ -59,3 +59,61 @@
 } /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/installed_check.py /root/workspace/asteroids-game/requirements.txt
 2024-11-21 18:59:51.463 [info] > ./venv/bin/python ~/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/installed_check.py ./asteroids-game/requirements.txt
 2024-11-21 19:00:04.683 [info] Discover tests for workspace name: workspace - uri: /root/workspace/asteroids-game/constants.py
+2024-11-21 19:00:29.630 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/player.py
+2024-11-21 21:57:30.345 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/constants.py
+2024-11-21 21:57:42.219 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/player.py
+2024-11-21 21:58:33.018 [info] Running installed packages checker:  {
+  id: '/root/workspace/venv/bin/python',
+  sysPrefix: '/root/workspace/venv',
+  envType: 'Venv',
+  envName: 'venv',
+  envPath: '/root/workspace/venv/bin/python',
+  path: '/root/workspace/venv/bin/python',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: "Python 3.12.3 ('venv')",
+  detailedDisplayName: "Python 3.12.3 ('venv')",
+  type: 'Virtual'
+} /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/installed_check.py /root/workspace/Asteroids/requirements.txt
+2024-11-21 21:58:33.018 [info] > ./venv/bin/python ~/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/installed_check.py ./Asteroids/requirements.txt
+2024-11-21 22:07:02.516 [info] CreateEnv Trigger - Skipping for /root/workspace/Asteroids/main.py
+2024-11-21 22:15:28.168 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-21 22:28:27.105 [info] Running installed packages checker:  {
+  id: '/root/workspace/Asteroids/venv/bin/python',
+  sysPrefix: '/root/workspace/Asteroids/venv',
+  envType: 'Venv',
+  envName: 'venv',
+  envPath: '/root/workspace/Asteroids/venv/bin/python',
+  path: '/root/workspace/Asteroids/venv/bin/python',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: "Python 3.12.3 ('venv')",
+  detailedDisplayName: "Python 3.12.3 ('venv')",
+  type: 'Virtual'
+} /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/installed_check.py /root/workspace/Asteroids/requirements.txt
+2024-11-21 22:28:27.105 [info] > ./Asteroids/venv/bin/python ~/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/installed_check.py ./Asteroids/requirements.txt
+2024-11-21 22:28:27.105 [info] Discover tests for workspace name: workspace - uri: /root/workspace
+2024-11-21 22:28:27.105 [info] Python interpreter path: ./Asteroids/venv/bin/python
+2024-11-21 22:28:27.173 [info] > . ./Asteroids/venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariables.py
+2024-11-21 22:28:27.173 [info] shell: bash
+2024-11-21 22:28:27.228 [info] Setting environment variable VIRTUAL_ENV in collection to /root/workspace/Asteroids/venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-11-21 22:28:27.228 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-11-21 22:28:27.228 [info] Prepending environment variable PS1 in collection with (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-11-21 22:28:27.228 [info] Prepending environment variable PATH in collection with /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/bash:/root/workspace/Asteroids/venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-11-21 22:33:25.194 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/circleshape.py
