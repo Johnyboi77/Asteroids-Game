@@ -25,3 +25,39 @@
 2024-11-21 10:53:07.635 [info] > ./venv/bin/python ~/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/normalizeSelection.py
 2024-11-21 10:53:57.338 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
 2024-11-21 10:55:42.192 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
+2024-11-21 10:58:45.480 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
+2024-11-21 10:59:04.600 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
+2024-11-21 11:03:31.415 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
+2024-11-21 11:04:17.456 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
+2024-11-21 11:15:49.769 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
+2024-11-21 11:23:12.711 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/circleshape.py
+2024-11-21 11:23:21.933 [info] Running installed packages checker:  {
+  id: '/root/workspace/venv/bin/python',
+  sysPrefix: '/root/workspace/venv',
+  envType: 'Venv',
+  envName: 'venv',
+  envPath: '/root/workspace/venv/bin/python',
+  path: '/root/workspace/venv/bin/python',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: "Python 3.12.3 ('venv')",
+  detailedDisplayName: "Python 3.12.3 ('venv')",
+  type: 'Virtual'
+} /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/installed_check.py /root/workspace/github.com/Johnyboi77/Asteroids/requirements.txt
+2024-11-21 11:23:21.933 [info] > ./venv/bin/python ~/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/installed_check.py ./github.com/Johnyboi77/Asteroids/requirements.txt
+2024-11-21 11:36:35.466 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/player.py
+2024-11-21 11:37:06.554 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/player.py
+2024-11-21 11:38:52.751 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/player.py
+2024-11-21 11:39:15.131 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/player.py
+2024-11-21 11:45:48.537 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/player.py
+2024-11-21 11:45:57.186 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/constants.py
+2024-11-21 11:45:57.583 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/constants.py
+2024-11-21 11:45:57.958 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/constants.py

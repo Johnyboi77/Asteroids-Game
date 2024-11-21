@@ -34,3 +34,9 @@
 2024-11-21 09:23:28.626 [info] [Info  - 9:23:28 AM] (719) scanned(3) 9 files over 1 exec env
 2024-11-21 09:23:29.021 [info] [Info  - 9:23:29 AM] (719) indexed(3) 9 files over 1 exec env
 2024-11-21 09:23:29.048 [info] [Info  - 9:23:29 AM] (719) Indexing finished(3).
+2024-11-21 11:22:46.883 [info] [Info  - 11:22:46 AM] (719) Auto-excluding /root/workspace/github.com/Johnyboi77/Asteroids/venv
+2024-11-21 11:22:46.883 [info] [Info  - 11:22:46 AM] (719) Auto-excluding /root/workspace/venv
+2024-11-21 11:22:46.887 [info] [Info  - 11:22:46 AM] (719) Found 4 source files
+2024-11-21 11:28:45.259 [info] [Info  - 11:28:45 AM] (719) Auto-excluding /root/workspace/github.com/Johnyboi77/Asteroids/venv
+2024-11-21 11:28:45.260 [info] [Info  - 11:28:45 AM] (719) Auto-excluding /root/workspace/venv
+2024-11-21 11:28:45.282 [info] [Info  - 11:28:45 AM] (719) Found 5 source files
