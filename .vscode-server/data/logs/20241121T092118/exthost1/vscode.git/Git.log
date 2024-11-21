@@ -596,3 +596,39 @@ warning: adding embedded git repository: workspace/github.com/Johnyboi77/bookbot
 2024-11-21 10:56:01.803 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
 2024-11-21 10:56:01.924 [info] > git status -z -uall [130ms]
 2024-11-21 10:56:03.947 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [20579ms]
+2024-11-21 10:56:05.224 [info] > git add -A -- . [232ms]
+2024-11-21 10:56:05.224 [info] warning: adding embedded git repository: workspace/github.com/Johnyboi77/Asteroids/Asteroids
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> workspace/github.com/Johnyboi77/Asteroids/Asteroids
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached workspace/github.com/Johnyboi77/Asteroids/Asteroids
+hint: 
+hint: See "git help submodule" for more information.
+2024-11-21 10:56:05.359 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [130ms]
+2024-11-21 10:56:05.365 [info] > git config --get commit.template [2ms]
+2024-11-21 10:56:05.381 [info] > git config --get commit.template [5ms]
+2024-11-21 10:56:05.382 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-11-21 10:56:05.396 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-21 10:56:05.556 [info] > git status -z -uall [168ms]
+2024-11-21 10:56:05.628 [info] > git config --get commit.template [1ms]
+2024-11-21 10:56:05.639 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-11-21 10:56:05.651 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-21 10:56:05.845 [info] > git status -z -uall [202ms]
+2024-11-21 10:56:06.658 [info] > git ls-files --stage -- /root/workspace/github.com/Johnyboi77/Asteroids/main.py [9ms]
+2024-11-21 10:56:06.663 [info] > git cat-file -s d87ff959867d56f3b3d0dd72567eb196fd84fd3f [1ms]
+2024-11-21 10:56:06.690 [info] > git show --textconv :workspace/github.com/Johnyboi77/Asteroids/main.py [8ms]
+2024-11-21 10:56:06.939 [info] > git config --get commit.template [7ms]
+2024-11-21 10:56:06.940 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-21 10:56:06.950 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-21 10:56:07.125 [info] > git status -z -uall [181ms]
+2024-11-21 10:56:09.361 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [3756ms]
+2024-11-21 10:56:12.861 [info] > git config --get commit.template [13ms]
+2024-11-21 10:56:12.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-11-21 10:56:12.881 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
