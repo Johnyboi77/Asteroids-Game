@@ -1,9 +1,9 @@
-access_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyVVVJRCI6IjJkNzViNTg5LWQ0YWYtNGQ3MS1hY2FhLTk2NjE5OGViNDI3OCIsImlzcyI6ImJvb3QuZGV2IiwiZXhwIjoxNzMyMTg4Mjc2LCJpYXQiOjE3MzIxODQ2NzZ9.qvrM4OFujWqouu8Ab_hVdrHBo609xRGJCldaSCcYwpA
+access_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyVVVJRCI6IjJkNzViNTg5LWQ0YWYtNGQ3MS1hY2FhLTk2NjE5OGViNDI3OCIsImlzcyI6ImJvb3QuZGV2IiwiZXhwIjoxNzMyMjE0MTU4LCJpYXQiOjE3MzIyMTA1NTh9.zsQuRaaEOKAyN9tLltp7IERHNHytgIxrI3F73a6BvgQ
 api_url: https://api.boot.dev
 base_url: https://boot.dev
 color:
     gray: "8"
     green: "2"
     red: "1"
-last_refresh: 1732184676
+last_refresh: 1732210558
 refresh_token: gk7ObnbUr17Ign1plHlUaLqS_GDZ13vB

@@ -1,0 +1,61 @@
+2024-11-21 18:44:29.638 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-11-21 18:44:29.638 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-11-21 18:44:29.638 [info] Experiment 'pythonTestAdapter' is active
+2024-11-21 18:44:29.638 [info] Native locator: Refresh started
+2024-11-21 18:44:29.638 [info] Native locator: Refresh started
+2024-11-21 18:44:30.412 [info] > pyenv which python
+2024-11-21 18:44:30.413 [info] cwd: .
+2024-11-21 18:44:30.866 [info] Python interpreter path: ./venv/bin/python
+2024-11-21 18:44:31.089 [info] > /usr/bin/python3 ~/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariables.py
+2024-11-21 18:44:31.089 [info] shell: bash
+2024-11-21 18:44:31.257 [info] Prepending environment variable PATH in collection with /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/bash:/root/workspace/venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-11-21 18:44:31.258 [info] Prepending environment variable PS1 in collection with (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-11-21 18:44:31.260 [info] Send text to terminal: /usr/bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/bash/envVars.txt
+2024-11-21 18:44:32.632 [info] Starting Pylance language server.
+2024-11-21 18:44:37.634 [info] Native locator: Refresh finished in 10265 ms
+2024-11-21 18:45:24.198 [info] Discover tests for workspace name: workspace - uri: /root/workspace/github.com/Johnyboi77/Asteroids/main.py
+2024-11-21 18:59:41.886 [info] Running installed packages checker:  {
+  id: '/root/workspace/venv/bin/python',
+  sysPrefix: '/root/workspace/venv',
+  envType: 'Venv',
+  envName: 'venv',
+  envPath: '/root/workspace/venv/bin/python',
+  path: '/root/workspace/venv/bin/python',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: "Python 3.12.3 ('venv')",
+  detailedDisplayName: "Python 3.12.3 ('venv')",
+  type: 'Virtual'
+} /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/installed_check.py /root/workspace/asteroids-game/requirements.txt
+2024-11-21 18:59:41.887 [info] > ./venv/bin/python ~/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/installed_check.py ./asteroids-game/requirements.txt
+2024-11-21 18:59:51.463 [info] Running installed packages checker:  {
+  id: '/root/workspace/venv/bin/python',
+  sysPrefix: '/root/workspace/venv',
+  envType: 'Venv',
+  envName: 'venv',
+  envPath: '/root/workspace/venv/bin/python',
+  path: '/root/workspace/venv/bin/python',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: []
+  },
+  displayName: "Python 3.12.3 ('venv')",
+  detailedDisplayName: "Python 3.12.3 ('venv')",
+  type: 'Virtual'
+} /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/installed_check.py /root/workspace/asteroids-game/requirements.txt
+2024-11-21 18:59:51.463 [info] > ./venv/bin/python ~/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/installed_check.py ./asteroids-game/requirements.txt
+2024-11-21 19:00:04.683 [info] Discover tests for workspace name: workspace - uri: /root/workspace/asteroids-game/constants.py
