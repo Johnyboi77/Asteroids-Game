@@ -9,12 +9,11 @@ from gameinfo import GameInfo
 
 
 def display_game_over(screen, font):
-    """Zeigt den GAME OVER-Bildschirm an."""
     screen.fill("black")
 
     # GAME OVER Nachricht
     game_over_text = font.render("GAME OVER", True, (255, 0, 0))
-    restart_text = font.render("Drücke Enter zum Neustarten", True, (255, 255, 255))
+    restart_text = font.render("Press Enter to restart", True, (255, 255, 255))
 
     # Zentriere die Texte
     game_over_rect = game_over_text.get_rect(center=(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 - 50))
@@ -24,7 +23,6 @@ def display_game_over(screen, font):
     screen.blit(game_over_text, game_over_rect)
     screen.blit(restart_text, restart_rect)
     pygame.display.flip()
-
 
 def main():
     pygame.init()
@@ -90,9 +88,9 @@ def main():
             minutes, seconds = divmod(elapsed_time, 60)  # Minuten und Sekunden berechnen
 
             # Texte erstellen
-            timer_text = small_font.render(f"Zeit: {minutes}min {seconds}s", True, (255, 255, 255))
-            score_text = small_font.render(f"Punkte: {game_info.score}", True, (255, 255, 255))
-            lives_text = small_font.render(f"Leben: {game_info.lives}", True, (255, 255, 255))
+            timer_text = small_font.render(f"Time: {minutes}min {seconds}s", True, (255, 255, 255))
+            score_text = small_font.render(f"Points: {game_info.score}", True, (255, 255, 255))
+            lives_text = small_font.render(f"Lives: {game_info.lives}", True, (255, 255, 255))
 
             # Texte auf den Bildschirm zeichnen
             screen.blit(timer_text, (10, 10))  # Timer oben links
@@ -119,7 +117,6 @@ def main():
             else:
                 continue  # Bleibe in der Schleife, wenn Enter nicht gedrückt wurde
             break
-
 
 if __name__ == "__main__":
     main()
