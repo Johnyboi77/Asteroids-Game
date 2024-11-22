@@ -7,14 +7,6 @@ from asteroidfield import AsteroidField
 from shot import Shot
 from gameinfo import GameInfo
 
-
-def display_game_over(screen, font):
-    game_over_text = font.render("GAME OVER", True, (255, 0, 0))
-    screen.fill("black")
-    screen.blit(game_over_text, (SCREEN_WIDTH / 2 - game_over_text.get_width() / 2, SCREEN_HEIGHT / 2 - game_over_text.get_height() / 2))
-    pygame.display.flip()
-
-
 def main():
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
@@ -25,24 +17,24 @@ def main():
     asteroids = pygame.sprite.Group()
     shots = pygame.sprite.Group()
 
-    # Set containers for asteroids, shots, and the asteroid field
+    # Set containers for asteroids, shots, and asteroid field
     Asteroid.containers = (asteroids, updatable, drawable)
     Shot.containers = (shots, updatable, drawable)
     AsteroidField.containers = updatable
     asteroid_field = AsteroidField()
 
-    # Set container for the player
+    # Set container for player
     Player.containers = (updatable, drawable)
 
-    font = pygame.font.Font(None, 72)  # Large font for GAME OVER
+    font = pygame.font.Font(None, 72)  # Large font for "GAME OVER"
     small_font = pygame.font.Font(None, 36)  # Smaller font for timer, score, etc.
 
-    while True:  # Main game loop
-        game_info = GameInfo()  # Reset the game
-        player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
-        dt = 0
+    game_info = GameInfo()  # Initialize the game info object
+    player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
 
-        while game_info.lives > 0:  # Inner game loop
+    dt = 0
+    while True:  # Main game loop
+        while game_info.lives > 0:  # Main game loop only runs when lives are left
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
@@ -52,49 +44,41 @@ def main():
             for obj in updatable:
                 obj.update(dt)
 
-            # Collision logic for asteroids and the player
+            # Handle collisions between player and asteroids
             for asteroid in asteroids:
                 if asteroid.collides_with(player):
-                    if not player.invincible:  # Only lose a life if not invincible
+                    if not player.invincible:  # Only lose a life if the player is not invincible
                         game_info.lose_life()  # Player loses a life
-                        player.activate_invincibility()  # Activate invincibility
+                        player.activate_invincibility()  # Activate invincibility for a few seconds
                         if game_info.lives > 0:
-                            # Respawn the player in the middle of the screen
-                            player.rect.center = (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
+                            player.rect.center = (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)  # Respawn the player
 
-                            # Print life lost message
+                            # Print the remaining lives
                             if game_info.lives == 1:
                                 print(f"Life lost, 1 Life remaining")
                             else:
-                                print(f"{game_info.lives} Lives remaining")
+                                print(f"Life lost, {game_info.lives} Lives remaining")
 
-            # Collision logic for shots and asteroids
-            for shot in shots:
-                if asteroid.collides_with(shot):
-                    shot.kill()
-                    asteroid.split()
-                    game_info.add_score(100)  # Add points
-
-            # Fill the screen
+            # Fill the screen with black
             screen.fill("black")
 
             # Draw all objects
             for obj in drawable:
                 obj.draw(screen)
 
-            # Render timer, score, and lives
+            # Timer, score, and lives display
             elapsed_time = game_info.get_elapsed_time()
-            minutes, seconds = divmod(int(elapsed_time), 60)  # Convert to full seconds
+            minutes, seconds = divmod(elapsed_time, 60)  # Calculate minutes and seconds
 
-            # Create texts
+            # Render text
             timer_text = small_font.render(f"Time: {minutes}min {seconds}s", True, (255, 255, 255))
             score_text = small_font.render(f"Score: {game_info.score}", True, (255, 255, 255))
             lives_text = small_font.render(f"Lives: {game_info.lives}", True, (255, 255, 255))
 
-            # Draw texts on the screen
-            screen.blit(timer_text, (10, 10))  # Timer at the top left
-            screen.blit(score_text, (10, 40))  # Score below the timer
-            screen.blit(lives_text, (10, 70))  # Lives below the score
+            # Draw the text on the screen
+            screen.blit(timer_text, (10, 10))  # Timer in top left
+            screen.blit(score_text, (10, 40))  # Score below timer
+            screen.blit(lives_text, (10, 70))  # Lives below score
 
             # Update the screen
             pygame.display.flip()
@@ -102,10 +86,10 @@ def main():
             # Limit the framerate to 60 FPS
             dt = clock.tick(60) / 1000
 
-        # Show GAME OVER screen when the player has no lives left
+        # GAME OVER screen
         display_game_over(screen, font)
 
-        # Wait for Enter to restart
+        # Wait for 'Enter' to restart the game
         while True:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
@@ -115,9 +99,8 @@ def main():
                     game_info.reset()  # Reset the game
                     break  # Restart the game
             else:
-                continue  # Stay in the loop if Enter was not pressed
-            break  # Exit the loop when Enter is pressed
-
+                continue  # Stay in the loop if 'Enter' wasn't pressed
+            break
 
 if __name__ == "__main__":
     main()

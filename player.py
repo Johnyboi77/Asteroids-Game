@@ -70,4 +70,4 @@ class Player(CircleShape):
 
     def activate_invincibility(self, duration=5):
         self.invincible = True
-        self.invincible_time = duration  # Set the duration of invincibility
+        self.invincible_time = duration(5)  # Set the duration of invincibility
