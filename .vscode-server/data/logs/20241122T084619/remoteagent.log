@@ -1,0 +1,17 @@
+2024-11-22 08:46:20.139 [info] 
+
+
+
+
+2024-11-22 08:46:20.178 [info] Extension host agent started.
+2024-11-22 08:46:20.466 [info] [127.0.0.1][ff10da0e][ManagementConnection] New connection established.
+2024-11-22 08:46:20.993 [info] [127.0.0.1][c94f4456][ExtensionHostConnection] New connection established.
+2024-11-22 08:46:21.029 [info] [127.0.0.1][c94f4456][ExtensionHostConnection] <624> Launched Extension Host Process.
+2024-11-22 08:46:33.000 [info] Getting Manifest... ms-python.vscode-pylance
+2024-11-22 08:46:33.198 [info] Installing extension: ms-python.vscode-pylance {"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-11-22 08:46:34.780 [info] Getting Manifest... ms-python.python
+2024-11-22 08:46:51.198 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 6762ms.
+2024-11-22 08:47:29.866 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3: ms-python.vscode-pylance
+2024-11-22 08:47:29.895 [info] Renamed to /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3
+2024-11-22 08:47:29.975 [info] Marked extension as uninstalled ms-python.vscode-pylance-2024.11.2
+2024-11-22 08:47:30.006 [info] Extension installed successfully: ms-python.vscode-pylance file:///root/.vscode-server/extensions/extensions.json
