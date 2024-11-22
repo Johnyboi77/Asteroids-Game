@@ -1,4 +1,5 @@
-# gameinfo.py
+import pygame 
+
 class GameInfo:
     def __init__(self):
         self.score = 0

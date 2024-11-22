@@ -2,16 +2,28 @@ import pygame
 from constants import *
 from circleshape import CircleShape
 from shot import Shot
-
+from gameinfo import GameInfo
 
 class Player(CircleShape):
     def __init__(self, x, y):
         super().__init__(x, y, PLAYER_RADIUS)
         self.rotation = 0
         self.shoot_timer = 0
+        
+        # Invincibility attributes
+        self.invincible = False  # Player is not invincible initially
+        self.invincible_time = 0  # How much time the player has left being invincible
 
     def draw(self, screen):
-        pygame.draw.polygon(screen, "white", self.triangle(), 2)
+        # If the player is invincible, change opacity or make them blink
+        if self.invincible:
+            # Blinking effect: alternates visibility
+            if int(self.invincible_time * 2) % 2 == 0:
+                pygame.draw.polygon(screen, (255, 255, 255, 128), self.triangle(), 2)  # Semi-transparent
+            else:
+                pygame.draw.polygon(screen, "white", self.triangle(), 2)  # Full opacity
+        else:
+            pygame.draw.polygon(screen, "white", self.triangle(), 2)
 
     def triangle(self):
         forward = pygame.Vector2(0, 1).rotate(self.rotation)
@@ -22,6 +34,12 @@ class Player(CircleShape):
         return [a, b, c]
 
     def update(self, dt):
+        # If invincible, reduce the invincibility time
+        if self.invincible:
+            self.invincible_time -= dt
+            if self.invincible_time <= 0:
+                self.invincible = False  # Stop being invincible when time runs out
+
         self.shoot_timer -= dt
         keys = pygame.key.get_pressed()
 
@@ -49,3 +67,7 @@ class Player(CircleShape):
     def move(self, dt):
         forward = pygame.Vector2(0, 1).rotate(self.rotation)
         self.position += forward * PLAYER_SPEED * dt
+
+    def activate_invincibility(self, duration=5):
+        self.invincible = True
+        self.invincible_time = duration  # Set the duration of invincibility
