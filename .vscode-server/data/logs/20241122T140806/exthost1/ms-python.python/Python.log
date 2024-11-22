@@ -20,3 +20,18 @@
 2024-11-22 16:07:37.492 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/gameinfo.py
 2024-11-22 16:09:40.043 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
 2024-11-22 16:09:52.922 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-22 16:17:44.146 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-22 17:05:46.389 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-22 17:05:52.044 [info] CreateEnv Trigger - Skipping for /root/workspace/Asteroids/main.py
+2024-11-22 17:06:04.277 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-22 17:06:48.912 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-22 17:10:52.312 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-22 17:15:42.785 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/gameinfo.py
+2024-11-22 17:17:35.421 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-22 17:22:24.972 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-22 17:23:26.119 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-22 17:24:00.888 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-22 17:25:49.885 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-22 17:29:36.888 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-22 17:30:39.098 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/gameinfo.py
+2024-11-22 17:31:25.573 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/gameinfo.py
