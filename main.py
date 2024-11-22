@@ -5,6 +5,7 @@ from player import Player
 from asteroid import Asteroid
 from asteroidfield import AsteroidField
 from shot import Shot
+from gameinfo import GameInfo 
 
 
 def main():
@@ -25,7 +26,7 @@ def main():
     Player.containers = (updatable, drawable)
 
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
-
+    game_info = GameInfo()
     dt = 0
 
     while True:
