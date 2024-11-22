@@ -14,3 +14,12 @@ class GameInfo:
     def reset(self):
         self.start_time = time.time()
         self.score = 0
+
+    def lose_life(self):
+        if self.lives > 0:
+            self.lives -= 1
+
+    def reset(self):
+        self.start_time = time.time()
+        self.score = 0
+        self.lives = 3
