@@ -5,7 +5,7 @@ from player import Player
 from asteroid import Asteroid
 from asteroidfield import AsteroidField
 from shot import Shot
-from gameinfo import GameInfo 
+from gameinfo import GameInfo
 
 
 def main():
@@ -53,10 +53,11 @@ def main():
         for obj in drawable:
             obj.draw(screen)
 
-                # Timer und Score rendern
+        # Timer und Score rendern
         font = pygame.font.Font(None, 36)  # Wähle eine Schriftart und Größe
         elapsed_time = game_info.get_elapsed_time()
-        timer_text = font.render(f"Zeit: {elapsed_time}s", True, (255, 255, 255))
+        minutes, seconds = divmod(elapsed_time, 60)  # Minuten und Sekunden berechnen
+        timer_text = font.render(f"Zeit: {minutes}min {seconds}s", True, (255, 255, 255))
         score_text = font.render(f"Punkte: {game_info.score}", True, (255, 255, 255))
 
         # Zeichne Timer und Score
@@ -66,7 +67,7 @@ def main():
         # Bildschirm aktualisieren
         pygame.display.flip()
 
-        # limit the framerate to 60 FPS
+        # Limit the framerate to 60 FPS
         dt = clock.tick(60) / 1000
 
 
