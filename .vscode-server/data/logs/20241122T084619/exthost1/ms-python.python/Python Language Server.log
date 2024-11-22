@@ -61,3 +61,9 @@
 2024-11-22 09:58:51.560 [info] [Info  - 9:58:51 AM] (4102) scanned(4) 11 files over 1 exec env
 2024-11-22 09:58:51.951 [info] [Info  - 9:58:51 AM] (4102) indexed(4) 11 files over 1 exec env
 2024-11-22 09:58:52.037 [info] [Info  - 9:58:52 AM] (4102) Indexing finished(4).
+2024-11-22 11:14:21.137 [info] [Info  - 11:14:21 AM] (4102) Auto-excluding /root/workspace/Asteroids/venv
+2024-11-22 11:14:21.138 [info] [Info  - 11:14:21 AM] (4102) Auto-excluding /root/workspace/venv
+2024-11-22 11:14:21.164 [info] [Info  - 11:14:21 AM] (4102) Found 11 source files
+2024-11-22 11:14:52.164 [info] [Info  - 11:14:52 AM] (4102) Auto-excluding /root/workspace/Asteroids/venv
+2024-11-22 11:14:52.168 [info] [Info  - 11:14:52 AM] (4102) Auto-excluding /root/workspace/venv
+2024-11-22 11:14:52.190 [info] [Info  - 11:14:52 AM] (4102) Found 11 source files
