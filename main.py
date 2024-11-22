@@ -7,6 +7,22 @@ from asteroidfield import AsteroidField
 from shot import Shot
 from gameinfo import GameInfo
 
+def display_game_over(screen, font):
+    """Zeigt den GAME OVER-Bildschirm an."""
+    screen.fill("black")
+
+    # GAME OVER Nachricht
+    game_over_text = font.render("GAME OVER", True, (255, 0, 0))
+    restart_text = font.render("Drücke Enter zum Neustarten", True, (255, 255, 255))
+
+    # Zentriere die Texte
+    game_over_rect = game_over_text.get_rect(center=(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 - 50))
+    restart_rect = restart_text.get_rect(center=(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 + 50))
+
+    # Texte auf dem Bildschirm anzeigen
+    screen.blit(game_over_text, game_over_rect)
+    screen.blit(restart_text, restart_rect)
+    pygame.display.flip()
 
 def main():
     pygame.init()
@@ -65,6 +81,7 @@ def main():
         minutes, seconds = divmod(elapsed_time, 60)  # Minuten und Sekunden berechnen
         timer_text = font.render(f"Zeit: {minutes}min {seconds}s", True, (255, 255, 255))
         score_text = font.render(f"Punkte: {game_info.score}", True, (255, 255, 255))
+        lives_text = font.render(f"Leben: {game_info.lives}", True, (255, 255, 255))
 
         # Zeichne Timer und Score
         screen.blit(timer_text, (10, 10))  # Timer oben links
