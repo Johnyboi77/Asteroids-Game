@@ -51,3 +51,5 @@
 2024-11-22 11:14:56.768 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/shot.py
 2024-11-22 11:15:06.304 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/shot.py
 2024-11-22 11:19:17.985 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/shot.py
+2024-11-22 11:19:23.914 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/circleshape.py
+2024-11-22 11:26:32.955 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/player.py
