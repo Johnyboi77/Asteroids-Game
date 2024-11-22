@@ -60,3 +60,5 @@
 2024-11-22 11:35:26.235 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
 2024-11-22 11:50:06.518 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/shot.py
 2024-11-22 11:50:13.005 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-22 12:22:17.520 [info] CreateEnv Trigger - Skipping for /root/workspace/Asteroids/circleshape.py
+2024-11-22 12:22:17.620 [info] Send text to terminal: /root/workspace/Asteroids/venv/bin/python /root/workspace/Asteroids/circleshape.py

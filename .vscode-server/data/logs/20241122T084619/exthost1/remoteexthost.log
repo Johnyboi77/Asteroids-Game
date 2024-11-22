@@ -629,3 +629,40 @@
 2024-11-22 09:59:08.003 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7359
 2024-11-22 09:59:13.268 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7359
 2024-11-22 09:59:23.724 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7359
+2024-11-22 12:19:51.504 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-22 12:19:51.507 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-22 12:19:51.507 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-22 12:19:52.515 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-22 12:19:52.522 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-22 12:19:52.523 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-22 12:19:54.318 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-22 12:19:55.320 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-22 12:53:43.995 [info] Extension host terminating: received terminate message from renderer
+2024-11-22 12:53:44.002 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/12378d868cd1f73fdeb55096921fa0c7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-11-22 12:53:44.312 [error] An error occurred when disposing the subscriptions for extension 'ms-python.python':
+2024-11-22 12:53:44.314 [error] Error: Connection is disposed.
+	at

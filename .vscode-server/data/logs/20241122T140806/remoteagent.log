@@ -1,0 +1,14 @@
+2024-11-22 14:08:06.973 [info] 
+
+
+
+
+2024-11-22 14:08:07.004 [info] Extension host agent started.
+2024-11-22 14:08:07.234 [info] Deleted uninstalled extension from disk ms-python.vscode-pylance /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2
+2024-11-22 14:08:07.379 [info] [127.0.0.1][8a88b52d][ManagementConnection] New connection established.
+2024-11-22 14:08:07.645 [info] [127.0.0.1][f59879c8][ExtensionHostConnection] New connection established.
+2024-11-22 14:08:07.851 [info] [127.0.0.1][f59879c8][ExtensionHostConnection] <478> Launched Extension Host Process.
+2024-11-22 14:12:34.106 [info] [127.0.0.1][8a88b52d][ManagementConnection] The client has reconnected.
+2024-11-22 14:12:34.486 [info] [127.0.0.1][f59879c8][ExtensionHostConnection] The client has reconnected.
+2024-11-22 14:24:01.116 [info] [127.0.0.1][f59879c8][ExtensionHostConnection] The client has reconnected.
+2024-11-22 14:24:01.530 [info] [127.0.0.1][8a88b52d][ManagementConnection] The client has reconnected.
