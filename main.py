@@ -46,12 +46,24 @@ def main():
                 if asteroid.collides_with(shot):
                     shot.kill()
                     asteroid.split()
+                    game_info.add_score(100)
 
         screen.fill("black")
 
         for obj in drawable:
             obj.draw(screen)
 
+                # Timer und Score rendern
+        font = pygame.font.Font(None, 36)  # Wähle eine Schriftart und Größe
+        elapsed_time = game_info.get_elapsed_time()
+        timer_text = font.render(f"Zeit: {elapsed_time}s", True, (255, 255, 255))
+        score_text = font.render(f"Punkte: {game_info.score}", True, (255, 255, 255))
+
+        # Zeichne Timer und Score
+        screen.blit(timer_text, (10, 10))  # Timer oben links
+        screen.blit(score_text, (10, 40))  # Score direkt darunter
+
+        # Bildschirm aktualisieren
         pygame.display.flip()
 
         # limit the framerate to 60 FPS
