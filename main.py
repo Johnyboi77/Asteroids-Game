@@ -14,7 +14,7 @@ def display_game_over(screen, font):
 
     # GAME OVER Nachricht
     game_over_text = font.render("GAME OVER", True, (255, 0, 0))
-    restart_text = font.render("Press Enter to Restart", True, (255, 255, 255))
+    restart_text = font.render("Drücke Enter zum Neustarten", True, (255, 255, 255))
 
     # Zentriere die Texte
     game_over_rect = game_over_text.get_rect(center=(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 - 50))
