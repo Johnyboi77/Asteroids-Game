@@ -8,33 +8,17 @@ class Player(CircleShape):
         super().__init__(x, y, PLAYER_RADIUS)
         self.rotation = 0
         self.shoot_timer = 0
-        self.alpha_value = 255  # Standard-Alpha-Wert (volle Deckkraft)
 
     def triangle(self):
-        """
-        Gibt die Koordinaten eines Dreiecks zurück, das das Raumschiff des Spielers darstellt.
-        """
-        x = self.position.x
-        y = self.position.y
-        size = PLAYER_RADIUS  # Größe des Raumschiffs (Dreieck)
-        
-        # Die drei Punkte des Dreiecks
-        points = [
-            (x, y - size),  # Spitze des Dreiecks
-            (x - size, y + size),  # Untere linke Ecke
-            (x + size, y + size)   # Untere rechte Ecke
-        ]
-        return points
+        forward = pygame.Vector2(0, 1).rotate(self.rotation)
+        right = pygame.Vector2(0, 1).rotate(self.rotation + 90) * self.radius / 1.5
+        a = self.position + forward * self.radius
+        b = self.position - forward * self.radius - right
+        c = self.position - forward * self.radius + right
+        return [a, b, c]
 
     def draw(self, screen):
-        # Setze den Alpha-Wert auf die gewünschte Sichtbarkeit
-        surface = pygame.Surface((self.radius * 2, self.radius * 2), pygame.SRCALPHA)
-        
-        # Zeichne das Raumschiff (Dreieck) mit dem aktuellen Alpha-Wert
-        pygame.draw.polygon(surface, (255, 255, 255, self.alpha_value), self.triangle(), 0)
-        
-        # Zeichne die Oberfläche auf den Bildschirm
-        screen.blit(surface, (self.position.x - self.radius, self.position.y - self.radius))
+        pygame.draw.polygon(screen, (255, 255, 255), self.triangle(), 0)
 
     def update(self, dt):
         self.shoot_timer -= dt

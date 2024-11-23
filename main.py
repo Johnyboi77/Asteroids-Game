@@ -1,5 +1,5 @@
-import pygame
 import sys
+import pygame
 from constants import *
 from player import Player
 from asteroid import Asteroid
@@ -49,53 +49,38 @@ def main():
     dt = 0
     start_ticks = pygame.time.get_ticks()  # Zeitstempel für den Start des Spiels
     
-    # Unverwundbarkeitszeit (in Millisekunden)
-    invincibility_duration = 5000  # 5 Sekunden
-    invincibility_time = 0  # Unverwundbarkeitszeit in Millisekunden
-    
-    # Blinken des Spielers während der Unverwundbarkeit
-    blink_duration = 500  # Dauer für den Wechsel (Millisekunden)
-    blink_time = 0  # Zeit in Millisekunden, die der Spieler blinkt
-    alpha_value = 255  # Anfangswert für die Opazität (volle Deckkraft)
-    
     # Hauptspiel-Schleife
     while True:
+        # Spiel läuft, solange der Spieler Leben hat
         while game_info.lives > 0:
+            if game_info.lives == 3:
+                print("Lives: 3 - Game running")
+            elif game_info.lives == 2:
+                print("Lives: 2 - Game running")
+            elif game_info.lives == 1:
+                print("Lives: 1 - Game running")
+
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
                     sys.exit()
+            
+            for obj in updatable:
+                obj.update(dt)
 
-            # Wenn der Spieler unverwundbar ist
-            if invincibility_time > 0:
-                # Blinken des Spielers während der Unverwundbarkeit
-                blink_time -= dt * 1000  # Verringere die blink_time in Millisekunden
-
-                if blink_time <= 0:
-                    # Toggle der Sichtbarkeit des Spielers (zwischen 255 und 0)
-                    alpha_value = 255 if alpha_value == 0 else 0
-                    blink_time = blink_duration  # Setze blink_time auf die Blink-Dauer zurück
-
-            # Wenn der Spieler verwundbar ist, nach einer Kollision
-            if invincibility_time > 0:
-                invincibility_time -= dt * 1000  # Verringere die verbleibende Unverwundbarkeitszeit
-
-            # Überprüfung auf Kollision zwischen Spieler und Asteroiden (nur wenn der Spieler nicht unverwundbar ist)
-            if invincibility_time <= 0:  # Nur wenn der Spieler verwundbar ist
-                for asteroid in asteroids:
-                    if asteroid.collides_with(player):
-                        print("Collision detected!")  # Debug: Wurde Kollision erkannt?
-                        game_info.lose_life()  # Leben abziehen
-                        print(f"Lives after collision: {game_info.lives}")  # Debug: Leben nach Abzug
-                        if game_info.lives > 0:
-                            print(f"{game_info.lives} lives remaining. Keep going!")  # Debug-Ausgabe
-                            player.rect.center = (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)  # Spieler neu positionieren
-                            invincibility_time = invincibility_duration  # Starte die Unverwundbarkeitsphase
-                            blink_time = blink_duration  # Starte das Blinken
-                            pygame.time.wait(500)  # Kurze Verzögerung nach Kollision
-                        else:
-                            print("No lives remaining. Game Over!")  # Debug: Spielende
-                            break
+            # Überprüfung auf Kollision zwischen Spieler und Asteroiden
+            for asteroid in asteroids:
+                if asteroid.collides_with(player):
+                    print("Collision detected!")  # Debug: Wurde Kollision erkannt?
+                    game_info.lose_life()  # Leben abziehen
+                    print(f"Lives after collision: {game_info.lives}")  # Debug: Leben nach Abzug
+                    if game_info.lives > 0:
+                        print(f"{game_info.lives} lives remaining. Keep going!")  # Debug-Ausgabe
+                        player.rect.center = (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)  # Spieler neu positionieren
+                        pygame.time.wait(1000)  # Kurze Verzögerung nach Kollision
+                    else:
+                        print("No lives remaining. Game Over!")  # Debug: Spielende
+                        break
 
             # Überprüfung auf Kollision zwischen Schüssen und Asteroiden
             for shot in shots:
@@ -110,13 +95,6 @@ def main():
             for obj in drawable:
                 obj.draw(screen)
 
-            # Wenn der Spieler unverwundbar ist, ändere den Alpha-Wert
-            if invincibility_time > 0:
-                player.image.set_alpha(alpha_value)  # Setze den Alpha-Wert basierend auf blink_time
-
-            # Zeichne den Spieler
-            player.draw(screen)
-
             # HUD (Punkte, Zeit, Leben)
             elapsed_time = (pygame.time.get_ticks() - start_ticks) / 1000  # in Sekunden
             minutes, seconds = divmod(elapsed_time, 60)
@@ -127,9 +105,10 @@ def main():
             screen.blit(score_text, (10, 40))
             screen.blit(lives_text, (10, 70))
             pygame.display.flip()
-            dt = clock.tick(60) / 1000  # Delta Zeit (in Sekunden)
+            dt = clock.tick(60) / 1000
 
-        # Game-Over-Bildschirm
+        # Wenn die Leben auf 0 fallen
+        print("Lives: 0 - Game Over")
         display_game_over(screen, font)
 
         # Warten auf Eingaben nach dem Game-Over-Bildschirm
@@ -144,7 +123,6 @@ def main():
                         game_info.reset()
                         player.rect.center = (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
                         start_ticks = pygame.time.get_ticks()  # Setze die Startzeit zurück
-                        invincibility_time = 0  # Setze die Unverwundbarkeitszeit zurück
                         waiting_for_input = False
                     elif event.key == pygame.K_ESCAPE:  # Spiel beenden
                         pygame.quit()
