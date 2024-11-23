@@ -15,15 +15,29 @@ def display_game_over(screen, font):
 
     # Kleineren Text für die Hinweise
     small_font = pygame.font.Font(None, 36)
-    restart_text = small_font.render("Press ENTER to restart", True, (255, 255, 255))
+    restart_text = small_font.render("Press ESC to quit", True, (255, 255, 255))  # Nur ESC für Beenden
     restart_rect = restart_text.get_rect(center=(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 + 70))
     screen.blit(restart_text, restart_rect)
 
-    exit_text = small_font.render("Press ESC to quit", True, (255, 255, 255))
-    exit_rect = exit_text.get_rect(center=(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 + 120))
-    screen.blit(exit_text, exit_rect)
-
     pygame.display.flip()
+
+def reset_game(updatable, drawable, asteroids, shots, player, game_info):
+    asteroids.empty()
+    shots.empty()
+    player.rect.center = (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
+    game_info.reset()
+    for _ in range(5): 
+        # Zufällige Position und Radius für den Asteroiden
+        x = random.randint(0, SCREEN_WIDTH)
+        y = random.randint(0, SCREEN_HEIGHT)
+        radius = random.randint(20, 50)  # Setze einen zufälligen Radius zwischen 20 und 50
+        
+        # Erstelle einen neuen Asteroiden mit den zufälligen Werten
+        asteroid = Asteroid(x, y, radius)
+        
+        asteroids.add(asteroid)
+        updatable.add(asteroid)
+        drawable.add(asteroid)
 
 def main():
     pygame.init()
@@ -55,14 +69,12 @@ def main():
         # Spiel läuft, solange der Spieler Leben hat
         while game_info.lives > 0:
             current_time = pygame.time.get_ticks()  # Aktuelle Zeit abrufen
-
             if game_info.lives == 3:
                 print("3 lives remaining")
             elif game_info.lives == 2:
                 print("2 lives remaining")
             elif game_info.lives == 1:
                 print("1 life remaining")
-
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
@@ -79,7 +91,6 @@ def main():
                         print("Collision detected!")  # Debug: Kollision erkannt
                         game_info.lose_life()  # Leben abziehen
                         print(f"Lives after collision: {game_info.lives}")  # Debug: Leben nach Abzug
-
                         if game_info.lives > 0:
                             print(f"{game_info.lives} lives remaining. Keep going!")  # Debug
                             player.rect.center = (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)  # Spieler neu positionieren
@@ -117,20 +128,18 @@ def main():
         print("Lives: 0 - Game Over")
         display_game_over(screen, font)
 
-        # Warten auf Eingaben nach dem Game-Over-Bildschirm
         waiting_for_input = True
+
         while waiting_for_input:
             for event in pygame.event.get():
+                # Das Schließen des Spiels nur bei QUIT Event
                 if event.type == pygame.QUIT:
                     pygame.quit()
                     sys.exit()
+
+                # Überprüfung auf Tastendruck
                 if event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_RETURN:  # Spiel neu starten
-                        game_info.reset()
-                        player.rect.center = (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
-                        start_ticks = pygame.time.get_ticks()  # Setze die Startzeit zurück
-                        waiting_for_input = False
-                    elif event.key == pygame.K_ESCAPE:  # Spiel beenden
+                    if event.key == pygame.K_ESCAPE:  # Spiel beenden
                         pygame.quit()
                         sys.exit()
 

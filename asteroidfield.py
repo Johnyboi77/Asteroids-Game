@@ -49,3 +49,8 @@ class AsteroidField(pygame.sprite.Sprite):
             position = edge[1](random.uniform(0, 1))
             kind = random.randint(1, ASTEROID_KINDS)
             self.spawn(ASTEROID_MIN_RADIUS * kind, position, velocity)
+
+    def reset_asteroides(self):
+        self.spawn_timer = 0.0  # Reset des Spawn-Timers
+        for asteroid in Asteroid.containers[0]:  # Entferne alle Asteroiden
+            asteroid.kill()

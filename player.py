@@ -8,6 +8,12 @@ class Player(CircleShape):
         super().__init__(x, y, PLAYER_RADIUS)
         self.rotation = 0
         self.shoot_timer = 0
+        
+        # Initialisiere das rect-Attribut
+        self.image = pygame.Surface((2 * self.radius, 2 * self.radius), pygame.SRCALPHA)  # transparente Fläche
+        pygame.draw.circle(self.image, (255, 255, 255), (self.radius, self.radius), self.radius)  # Zeichnet den Kreis
+        self.rect = self.image.get_rect()  # Setzt das Rechteck basierend auf dem Bild
+        self.rect.center = (x, y)  # Setzt die Position des Spielers auf (x, y)
 
     def triangle(self):
         forward = pygame.Vector2(0, 1).rotate(self.rotation)
@@ -48,3 +54,4 @@ class Player(CircleShape):
     def move(self, dt):
         forward = pygame.Vector2(0, 1).rotate(self.rotation)
         self.position += forward * PLAYER_SPEED * dt
+        self.rect.center = self.position  # Update die Position des rect basierend auf `self.position`
