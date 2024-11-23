@@ -43,7 +43,7 @@ def main():
                     if not player.invincible:
                         game_info.lose_life()
                         player.activate_invincibility(duration=3)  # Unverwundbarkeit aktivieren
-                    if game_info.lives > 0:
+                    if game_info.lives >= 1:
                 # Spieler neu positionieren, das Spiel läuft weiter
                         player.rect.center = (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
                     else:
