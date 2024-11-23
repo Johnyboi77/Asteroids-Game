@@ -9,20 +9,15 @@ class Player(CircleShape):
         self.rotation = 0
         self.shoot_timer = 0
 
-        # Invincibility attributes
-        self.invincible = False
-        self.invincible_time = 0
+        # Hinzufügen der rect-Eigenschaft für Kollision und Positionierung
+        self.rect = pygame.Rect(x - self.radius, y - self.radius, self.radius * 2, self.radius * 2)
 
     def draw(self, screen):
-        if self.invincible:
-            if int(self.invincible_time * 2) % 2 == 0:
-                pygame.draw.polygon(screen, (255, 255, 255, 128), self.triangle(), 2)
-            else:
-                pygame.draw.polygon(screen, "white", self.triangle(), 2)
-        else:
-            pygame.draw.polygon(screen, "white", self.triangle(), 2)
+        # Zeichnet das Dreieck (Player) auf dem Bildschirm
+        pygame.draw.polygon(screen, "white", self.triangle(), 2)
 
     def triangle(self):
+        # Berechnet die Eckpunkte des Dreiecks, das den Spieler darstellt
         forward = pygame.Vector2(0, 1).rotate(self.rotation)
         right = pygame.Vector2(0, 1).rotate(self.rotation + 90) * self.radius / 1.5
         a = self.position + forward * self.radius
@@ -31,11 +26,6 @@ class Player(CircleShape):
         return [a, b, c]
 
     def update(self, dt):
-        if self.invincible:
-            self.invincible_time -= dt
-            if self.invincible_time <= 0:
-                self.invincible = False
-
         self.shoot_timer -= dt
         keys = pygame.key.get_pressed()
 
@@ -50,6 +40,9 @@ class Player(CircleShape):
         if keys[pygame.K_SPACE]:
             self.shoot()
 
+        # Die rect-Position aktualisieren, wenn der Spieler sich bewegt
+        self.rect.center = self.position
+
     def shoot(self):
         if self.shoot_timer > 0:
             return
@@ -63,7 +56,3 @@ class Player(CircleShape):
     def move(self, dt):
         forward = pygame.Vector2(0, 1).rotate(self.rotation)
         self.position += forward * PLAYER_SPEED * dt
-
-    def activate_invincibility(self, duration=5):
-        self.invincible = True
-        self.invincible_time = duration
