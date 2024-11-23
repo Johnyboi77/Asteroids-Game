@@ -8,22 +8,33 @@ class Player(CircleShape):
         super().__init__(x, y, PLAYER_RADIUS)
         self.rotation = 0
         self.shoot_timer = 0
-
-        # Hinzufügen der rect-Eigenschaft für Kollision und Positionierung
-        self.rect = pygame.Rect(x - self.radius, y - self.radius, self.radius * 2, self.radius * 2)
-
-    def draw(self, screen):
-        # Zeichnet das Dreieck (Player) auf dem Bildschirm
-        pygame.draw.polygon(screen, "white", self.triangle(), 2)
+        self.alpha_value = 255  # Standard-Alpha-Wert (volle Deckkraft)
 
     def triangle(self):
-        # Berechnet die Eckpunkte des Dreiecks, das den Spieler darstellt
-        forward = pygame.Vector2(0, 1).rotate(self.rotation)
-        right = pygame.Vector2(0, 1).rotate(self.rotation + 90) * self.radius / 1.5
-        a = self.position + forward * self.radius
-        b = self.position - forward * self.radius - right
-        c = self.position - forward * self.radius + right
-        return [a, b, c]
+        """
+        Gibt die Koordinaten eines Dreiecks zurück, das das Raumschiff des Spielers darstellt.
+        """
+        x = self.position.x
+        y = self.position.y
+        size = PLAYER_RADIUS  # Größe des Raumschiffs (Dreieck)
+        
+        # Die drei Punkte des Dreiecks
+        points = [
+            (x, y - size),  # Spitze des Dreiecks
+            (x - size, y + size),  # Untere linke Ecke
+            (x + size, y + size)   # Untere rechte Ecke
+        ]
+        return points
+
+    def draw(self, screen):
+        # Setze den Alpha-Wert auf die gewünschte Sichtbarkeit
+        surface = pygame.Surface((self.radius * 2, self.radius * 2), pygame.SRCALPHA)
+        
+        # Zeichne das Raumschiff (Dreieck) mit dem aktuellen Alpha-Wert
+        pygame.draw.polygon(surface, (255, 255, 255, self.alpha_value), self.triangle(), 0)
+        
+        # Zeichne die Oberfläche auf den Bildschirm
+        screen.blit(surface, (self.position.x - self.radius, self.position.y - self.radius))
 
     def update(self, dt):
         self.shoot_timer -= dt
@@ -39,9 +50,6 @@ class Player(CircleShape):
             self.rotate(dt)
         if keys[pygame.K_SPACE]:
             self.shoot()
-
-        # Die rect-Position aktualisieren, wenn der Spieler sich bewegt
-        self.rect.center = self.position
 
     def shoot(self):
         if self.shoot_timer > 0:
