@@ -48,11 +48,14 @@ def main():
 
     dt = 0
     start_ticks = pygame.time.get_ticks()  # Zeitstempel für den Start des Spiels
-    
+    collision_cooldown = 0  # Zeitstempel für Kollision
+
     # Hauptspiel-Schleife
     while True:
         # Spiel läuft, solange der Spieler Leben hat
         while game_info.lives > 0:
+            current_time = pygame.time.get_ticks()  # Aktuelle Zeit abrufen
+
             if game_info.lives == 3:
                 print("3 lives remaining")
             elif game_info.lives == 2:
@@ -64,22 +67,26 @@ def main():
                 if event.type == pygame.QUIT:
                     pygame.quit()
                     sys.exit()
-            
-            for obj in updatable:
-                obj.update(dt)
 
-            # Überprüfung auf Kollision zwischen Spieler und Asteroiden
-            for asteroid in asteroids:
-                if asteroid.collides_with(player):
-                    print("Collision detected!")  # Debug: Wurde Kollision erkannt?
-                    game_info.lose_life()  # Leben abziehen
-                    print(f"Lives after collision: {game_info.lives}")  # Debug: Leben nach Abzug
-                    if game_info.lives > 0:
-                        print(f"{game_info.lives} lives remaining. Keep going!")  # Debug-Ausgabe
-                        pygame.time.wait(1000)  # Kurze Verzögerung nach Kollision
-                    else:
-                        print("No lives remaining. Game Over!")  # Debug: Spielende
-                        break
+            # Nur aktualisieren, wenn keine Kollisionsverzögerung aktiv ist
+            if current_time > collision_cooldown:
+                for obj in updatable:
+                    obj.update(dt)
+
+                # Überprüfung auf Kollision zwischen Spieler und Asteroiden
+                for asteroid in asteroids:
+                    if asteroid.collides_with(player):
+                        print("Collision detected!")  # Debug: Kollision erkannt
+                        game_info.lose_life()  # Leben abziehen
+                        print(f"Lives after collision: {game_info.lives}")  # Debug: Leben nach Abzug
+
+                        if game_info.lives > 0:
+                            print(f"{game_info.lives} lives remaining. Keep going!")  # Debug
+                            player.rect.center = (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)  # Spieler neu positionieren
+                            collision_cooldown = current_time + 1000  # 1 Sekunde Verzögerung
+                        else:
+                            print("No lives remaining. Game Over!")  # Debug
+                            break
 
             # Überprüfung auf Kollision zwischen Schüssen und Asteroiden
             for shot in shots:
