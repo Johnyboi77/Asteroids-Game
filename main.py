@@ -54,11 +54,11 @@ def main():
         # Spiel läuft, solange der Spieler Leben hat
         while game_info.lives > 0:
             if game_info.lives == 3:
-                print("Lives: 3 - Game running")
+                print("3 lives remaining")
             elif game_info.lives == 2:
-                print("Lives: 2 - Game running")
+                print("2 lives remaining")
             elif game_info.lives == 1:
-                print("Lives: 1 - Game running")
+                print("1 life remaining")
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
@@ -76,7 +76,6 @@ def main():
                     print(f"Lives after collision: {game_info.lives}")  # Debug: Leben nach Abzug
                     if game_info.lives > 0:
                         print(f"{game_info.lives} lives remaining. Keep going!")  # Debug-Ausgabe
-                        player.rect.center = (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)  # Spieler neu positionieren
                         pygame.time.wait(1000)  # Kurze Verzögerung nach Kollision
                     else:
                         print("No lives remaining. Game Over!")  # Debug: Spielende
