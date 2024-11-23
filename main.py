@@ -1,5 +1,6 @@
-import sys
 import pygame
+import random
+import sys
 from constants import *
 from player import Player
 from asteroid import Asteroid
@@ -15,29 +16,11 @@ def display_game_over(screen, font):
 
     # Kleineren Text für die Hinweise
     small_font = pygame.font.Font(None, 36)
-    restart_text = small_font.render("Press ESC to quit", True, (255, 255, 255))  # Nur ESC für Beenden
-    restart_rect = restart_text.get_rect(center=(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 + 70))
-    screen.blit(restart_text, restart_rect)
+    exit_text = small_font.render("Press ESC to quit", True, (255, 255, 255))
+    exit_rect = exit_text.get_rect(center=(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 + 70))
+    screen.blit(exit_text, exit_rect)
 
     pygame.display.flip()
-
-def reset_game(updatable, drawable, asteroids, shots, player, game_info):
-    asteroids.empty()
-    shots.empty()
-    player.rect.center = (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
-    game_info.reset()
-    for _ in range(5): 
-        # Zufällige Position und Radius für den Asteroiden
-        x = random.randint(0, SCREEN_WIDTH)
-        y = random.randint(0, SCREEN_HEIGHT)
-        radius = random.randint(20, 50)  # Setze einen zufälligen Radius zwischen 20 und 50
-        
-        # Erstelle einen neuen Asteroiden mit den zufälligen Werten
-        asteroid = Asteroid(x, y, radius)
-        
-        asteroids.add(asteroid)
-        updatable.add(asteroid)
-        drawable.add(asteroid)
 
 def main():
     pygame.init()
@@ -64,6 +47,9 @@ def main():
     start_ticks = pygame.time.get_ticks()  # Zeitstempel für den Start des Spiels
     collision_cooldown = 0  # Zeitstempel für Kollision
 
+    # Variable für die Unverwundbarkeitsphase nach der Kollision
+    invincibility_time = 0
+
     # Hauptspiel-Schleife
     while True:
         # Spiel läuft, solange der Spieler Leben hat
@@ -75,6 +61,7 @@ def main():
                 print("2 lives remaining")
             elif game_info.lives == 1:
                 print("1 life remaining")
+
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
@@ -87,14 +74,22 @@ def main():
 
                 # Überprüfung auf Kollision zwischen Spieler und Asteroiden
                 for asteroid in asteroids:
-                    if asteroid.collides_with(player):
+                    # Nur kollidieren, wenn der Spieler nicht in der Unverwundbarkeitsphase ist
+                    if asteroid.collides_with(player) and current_time > invincibility_time:
                         print("Collision detected!")  # Debug: Kollision erkannt
-                        game_info.lose_life()  # Leben abziehen
+                        # Leben abziehen, wenn keine Unverwundbarkeitsphase aktiv ist
+                        game_info.lose_life()  
                         print(f"Lives after collision: {game_info.lives}")  # Debug: Leben nach Abzug
                         if game_info.lives > 0:
                             print(f"{game_info.lives} lives remaining. Keep going!")  # Debug
-                            player.rect.center = (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)  # Spieler neu positionieren
+                                
+                            # Setze den Spieler in eine sichere Position (z.B. Mitte des Bildschirms)
+                            player.rect.center = (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
+
+                            # Setze eine Verzögerung (Cooldown) für die Kollisionserkennung
                             collision_cooldown = current_time + 1000  # 1 Sekunde Verzögerung
+                            # Starte eine Unverwundbarkeitsphase von 2 Sekunden
+                            invincibility_time = current_time + 2000  # 2 Sekunden Unverwundbarkeit
                         else:
                             print("No lives remaining. Game Over!")  # Debug
                             break
@@ -145,3 +140,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    Santa CLAUS
