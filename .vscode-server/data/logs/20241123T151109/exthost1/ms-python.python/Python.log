@@ -1,0 +1,62 @@
+2024-11-23 15:11:20.433 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-11-23 15:11:20.434 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-11-23 15:11:20.434 [info] Experiment 'pythonTestAdapter' is active
+2024-11-23 15:11:20.434 [info] Native locator: Refresh started
+2024-11-23 15:11:20.434 [info] Native locator: Refresh started
+2024-11-23 15:11:20.566 [info] > pyenv which python
+2024-11-23 15:11:20.567 [info] cwd: .
+2024-11-23 15:11:21.402 [info] Python interpreter path: ./Asteroids/venv/bin/python
+2024-11-23 15:11:22.407 [info] > . ./Asteroids/venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariables.py
+2024-11-23 15:11:22.407 [info] shell: bash
+2024-11-23 15:11:22.526 [info] > /usr/bin/python3 ~/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariables.py
+2024-11-23 15:11:22.526 [info] shell: bash
+2024-11-23 15:11:22.641 [info] Setting environment variable VIRTUAL_ENV in collection to /root/workspace/Asteroids/venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-11-23 15:11:22.641 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-11-23 15:11:22.641 [info] Prepending environment variable PS1 in collection with (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-11-23 15:11:22.641 [info] Prepending environment variable PATH in collection with /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/bash:/root/workspace/Asteroids/venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-11-23 15:11:22.643 [info] Send text to terminal: /usr/bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/bash/envVars.txt
+2024-11-23 15:11:23.820 [info] Starting Pylance language server.
+2024-11-23 15:11:31.226 [info] Native locator: Refresh finished in 13808 ms
+2024-11-23 16:08:52.627 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 16:15:55.109 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 16:18:36.049 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/player.py
+2024-11-23 16:20:54.558 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/player.py
+2024-11-23 16:21:58.729 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 16:24:42.002 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 16:29:41.991 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 16:31:18.760 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 16:34:33.360 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 16:34:59.568 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 16:55:25.106 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/player.py
+2024-11-23 16:56:15.465 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 17:00:11.969 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 17:01:12.185 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/player.py
+2024-11-23 17:03:39.430 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 17:05:03.314 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 17:09:00.720 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 17:10:21.362 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 17:11:34.904 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 17:14:40.639 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 17:18:30.946 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 17:23:18.758 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 17:28:44.121 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 17:32:31.251 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/player.py
+2024-11-23 17:40:14.221 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 17:42:33.719 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:13:21.632 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:13:26.513 [info] CreateEnv Trigger - Skipping for /root/workspace/Asteroids/main.py
+2024-11-23 18:15:22.697 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:32:00.558 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:32:03.123 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:33:19.129 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:34:51.041 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:35:57.939 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:37:11.605 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:38:01.305 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:40:31.363 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:40:40.958 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:42:49.278 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:45:31.485 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:46:06.963 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:48:39.498 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py
+2024-11-23 18:49:40.931 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Asteroids/main.py

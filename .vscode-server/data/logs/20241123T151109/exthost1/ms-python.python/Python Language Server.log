@@ -1,0 +1,48 @@
+2024-11-23 15:11:22.169 [info] (Client) Pylance async client (2024.11.3) started with python extension (2024.20.0)
+2024-11-23 15:11:23.695 [info] [Info  - 3:11:23 PM] (915) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-11-23 15:11:23.734 [info] [Info  - 3:11:23 PM] (915) Pylance language server 2024.11.3 (pyright version 1.1.386, commit 4180fa21) starting
+2024-11-23 15:11:23.736 [info] [Info  - 3:11:23 PM] (915) Starting service instance "workspace"
+2024-11-23 15:11:23.983 [info] [Info  - 3:11:23 PM] (915) Setting environmentName for service "workspace": "3.12.3 (venv venv)"
+2024-11-23 15:11:23.984 [info] [Info  - 3:11:23 PM] (915) Setting pythonPath for service "workspace": "/root/workspace/Asteroids/venv/bin/python"
+2024-11-23 15:11:23.985 [info] [Info  - 3:11:23 PM] (915) No include entries specified; assuming /root/workspace
+2024-11-23 15:11:23.987 [info] [Info  - 3:11:23 PM] (915) Auto-excluding **/node_modules
+2024-11-23 15:11:23.988 [info] [Info  - 3:11:23 PM] (915) Auto-excluding **/__pycache__
+2024-11-23 15:11:23.989 [info] [Info  - 3:11:23 PM] (915) Auto-excluding **/.*
+2024-11-23 15:11:24.046 [info] [Info  - 3:11:24 PM] (915) Assuming Python version 3.12.3.final.0
+2024-11-23 15:11:24.192 [info] [Info  - 3:11:24 PM] (915) Auto-excluding /root/workspace/Asteroids/venv
+2024-11-23 15:11:24.196 [info] [Info  - 3:11:24 PM] (915) Auto-excluding /root/workspace/venv
+2024-11-23 15:11:24.213 [info] [Info  - 3:11:24 PM] (915) Found 10 source files
+2024-11-23 15:11:26.231 [info] [Info  - 3:11:26 PM] (915) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-11-23 15:11:26.247 [info] [Info  - 3:11:26 PM] (915) Background analysis(1) started
+2024-11-23 15:11:26.485 [info] [Info  - 3:11:26 PM] (915) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist (index)
+2024-11-23 15:11:26.486 [info] [Info  - 3:11:26 PM] (915) Indexing(2) started
+2024-11-23 15:11:29.147 [info] [Info  - 3:11:29 PM] (915) [IDX(2)] Long operation: scan packages file:///root/workspace (2391ms)
+2024-11-23 15:11:29.148 [info] [Info  - 3:11:29 PM] (915) scanned(2) 11 files over 1 exec env
+2024-11-23 15:11:30.227 [info] [Info  - 3:11:30 PM] (915) indexed(2) 11 files over 1 exec env
+2024-11-23 15:11:30.277 [info] [Info  - 3:11:30 PM] (915) [BG(1)] Long operation: SemanticTokens full at file:///root/workspace/Asteroids/main.py (3756ms)
+2024-11-23 15:11:30.390 [info] [Info  - 3:11:30 PM] (915) Indexing finished(2).
+2024-11-23 16:31:32.518 [info] [Info  - 4:31:32 PM] (915) Setting environmentName for service "workspace": "3.12.3 (venv venv)"
+2024-11-23 16:31:32.520 [info] [Info  - 4:31:32 PM] (915) Setting pythonPath for service "workspace": "/root/workspace/Asteroids/venv/bin/python"
+2024-11-23 16:31:32.520 [info] [Info  - 4:31:32 PM] (915) No include entries specified; assuming /root/workspace
+2024-11-23 16:31:32.520 [info] [Info  - 4:31:32 PM] (915) Auto-excluding **/node_modules
+2024-11-23 16:31:32.520 [info] [Info  - 4:31:32 PM] (915) Auto-excluding **/__pycache__
+2024-11-23 16:31:32.520 [info] [Info  - 4:31:32 PM] (915) Auto-excluding **/.*
+2024-11-23 16:31:32.554 [info] [Info  - 4:31:32 PM] (915) Assuming Python version 3.12.3.final.0
+2024-11-23 16:31:32.632 [info] [Info  - 4:31:32 PM] (915) Auto-excluding /root/workspace/Asteroids/venv
+2024-11-23 16:31:32.633 [info] [Info  - 4:31:32 PM] (915) Auto-excluding /root/workspace/venv
+2024-11-23 16:31:32.638 [info] [Info  - 4:31:32 PM] (915) Found 10 source files
+2024-11-23 16:31:33.533 [info] [Info  - 4:31:33 PM] (915) Indexer background runner(3) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist (index)
+2024-11-23 16:31:33.534 [info] [Info  - 4:31:33 PM] (915) Indexing(3) started
+2024-11-23 16:31:33.824 [info] [Info  - 4:31:33 PM] (915) Setting environmentName for service "workspace": "3.12.3 (venv venv)"
+2024-11-23 16:31:33.824 [info] [Info  - 4:31:33 PM] (915) Setting pythonPath for service "workspace": "/root/workspace/Asteroids/venv/bin/python"
+2024-11-23 16:31:33.824 [info] [Info  - 4:31:33 PM] (915) No include entries specified; assuming /root/workspace
+2024-11-23 16:31:33.824 [info] [Info  - 4:31:33 PM] (915) Auto-excluding **/node_modules
+2024-11-23 16:31:33.824 [info] [Info  - 4:31:33 PM] (915) Auto-excluding **/__pycache__
+2024-11-23 16:31:33.824 [info] [Info  - 4:31:33 PM] (915) Auto-excluding **/.*
+2024-11-23 16:31:33.861 [info] [Info  - 4:31:33 PM] (915) Assuming Python version 3.12.3.final.0
+2024-11-23 16:31:33.916 [info] [Info  - 4:31:33 PM] (915) Auto-excluding /root/workspace/Asteroids/venv
+2024-11-23 16:31:33.918 [info] [Info  - 4:31:33 PM] (915) Auto-excluding /root/workspace/venv
+2024-11-23 16:31:33.921 [info] [Info  - 4:31:33 PM] (915) Found 10 source files
+2024-11-23 16:31:34.241 [info] [Info  - 4:31:34 PM] (915) scanned(3) 11 files over 1 exec env
+2024-11-23 16:31:34.514 [info] [Info  - 4:31:34 PM] (915) indexed(3) 11 files over 1 exec env
+2024-11-23 16:31:34.551 [info] [Info  - 4:31:34 PM] (915) Indexing finished(3).

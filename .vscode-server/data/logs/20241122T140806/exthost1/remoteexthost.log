@@ -87,3 +87,20 @@
 2024-11-22 16:10:05.843 [warning] [Decorations] CAPPING events from decorations provider vscode.git 14856
 2024-11-22 16:10:27.786 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1086
 2024-11-22 17:31:37.425 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-22 17:50:57.985 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-11-22 17:56:47.897 [info] Extension host terminating: received terminate message from renderer
+2024-11-22 17:56:47.899 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/12378d868cd1f73fdeb55096921fa0c7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-11-22 17:56:48.379 [error] Canceled: Canceled
+	at new tT (file:///root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/out/vs/workbench/api/node/extensionHostProcess.js:31:151066)
+	at py.U (file:///root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/out/vs/workbench/api/node/extensionHostProcess.js:31:155676)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/out/vs/workbench/api/node/extensionHostProcess.js:31:153170)
+	at Y0.g (file:///root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at mh.O [as value] (/root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/main.js:2:961845)
+	at P.B (file:///root/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.C (file:///root/.vscode-server/bin/f1a4

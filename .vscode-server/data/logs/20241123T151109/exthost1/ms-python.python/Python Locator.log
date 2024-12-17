@@ -1,0 +1,57 @@
+2024-11-23 15:11:20.434 [info] Starting Python Locator /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python-env-tools/bin/pet server
+2024-11-23 15:11:20.434 [info] Discovered env: /usr/bin/python3
+2024-11-23 15:11:20.434 [info] Discovered env: /bin/python3
+2024-11-23 15:11:20.434 [info] Discovered env: /root/workspace/venv/bin/python
+2024-11-23 15:11:21.384 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 15:11:31.224 [info] Locator Conda took 13.713529533s
+2024-11-23 15:11:31.224 [info] Locator Homebrew took 169.106µs
+2024-11-23 15:11:31.224 [info] Locator LinuxGlobal took 245.209249ms
+2024-11-23 15:11:31.224 [info] Locator PipEnv took 44.941µs
+2024-11-23 15:11:31.224 [info] Locator Poetry took 152.627651ms
+2024-11-23 15:11:31.224 [info] Locator PyEnv took 151.493966ms
+2024-11-23 15:11:31.224 [info] Locator Venv took 31.258µs
+2024-11-23 15:11:31.224 [info] Locator VirtualEnv took 34.761µs
+2024-11-23 15:11:31.224 [info] Locator VirtualEnvWrapper took 87.043µs
+2024-11-23 15:11:31.224 [info] Locator GlobalVirtualEnvs took 35.751902ms
+2024-11-23 15:11:31.224 [info] Locator Locators took 13.714223751s
+2024-11-23 15:11:31.224 [info] Locator Path took 727.728025ms
+2024-11-23 15:11:31.224 [info] Locator Workspaces took 291.459958ms
+2024-11-23 15:11:31.224 [info] Refresh completed in 13714ms
+2024-11-23 16:06:02.681 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:06:39.752 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:08:42.694 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:09:57.467 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:16:24.540 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:20:55.684 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:26:40.516 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:28:08.849 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:29:02.372 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:31:32.487 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:37:23.142 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:37:58.721 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:39:08.860 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:54:48.211 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:55:27.631 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:56:03.257 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 16:59:16.186 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 17:00:04.178 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 17:01:52.800 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 17:03:25.015 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 17:29:54.255 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 17:31:29.673 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 17:32:25.606 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 17:40:09.362 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 18:13:26.185 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 18:15:25.550 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 18:32:06.090 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 18:34:54.983 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 18:38:03.461 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 18:39:18.209 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 18:40:02.763 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 18:40:33.883 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 18:42:50.930 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 18:45:35.529 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 18:46:08.604 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 18:48:41.233 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 18:49:43.031 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-11-23 18:50:30.337 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python

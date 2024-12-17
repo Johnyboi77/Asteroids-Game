@@ -56,3 +56,15 @@
 2024-11-22 16:10:08.459 [info] [Info  - 4:10:08 PM] (835) scanned(4) 11 files over 1 exec env
 2024-11-22 16:10:08.710 [info] [Info  - 4:10:08 PM] (835) indexed(4) 11 files over 1 exec env
 2024-11-22 16:10:08.744 [info] [Info  - 4:10:08 PM] (835) Indexing finished(4).
+2024-11-22 17:47:07.793 [info] [Info  - 5:47:07 PM] (835) Starting service instance "<default>"
+2024-11-22 17:47:07.861 [info] [Info  - 5:47:07 PM] (835) Setting environmentName for service "<default>": "3.12.3 (venv venv)"
+2024-11-22 17:47:07.862 [info] [Info  - 5:47:07 PM] (835) Setting pythonPath for service "<default>": "/root/workspace/Asteroids/venv/bin/python"
+2024-11-22 17:47:07.863 [info] [Info  - 5:47:07 PM] (835) No include entries specified; assuming /<default workspace root>
+2024-11-22 17:47:07.864 [info] [Info  - 5:47:07 PM] (835) Auto-excluding **/node_modules
+2024-11-22 17:47:07.865 [info] [Info  - 5:47:07 PM] (835) Auto-excluding **/__pycache__
+2024-11-22 17:47:07.865 [info] [Info  - 5:47:07 PM] (835) Auto-excluding **/.*
+2024-11-22 17:47:07.904 [info] [Info  - 5:47:07 PM] (835) Assuming Python version 3.12.3.final.0
+2024-11-22 17:47:07.992 [info] [Error - 5:47:07 PM] (835) File or directory "/<default workspace root>" does not exist.
+2024-11-22 17:47:07.993 [info] [Info  - 5:47:07 PM] (835) No source files found.
+2024-11-22 17:47:09.404 [info] [Info  - 5:47:09 PM] (835) Background analysis(5) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-11-22 17:47:09.408 [info] [Info  - 5:47:09 PM] (835) Background analysis(5) started

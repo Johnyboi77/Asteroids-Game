@@ -1,0 +1,16 @@
+2024-11-23 18:50:50.174 [info] 
+
+
+
+
+2024-11-23 18:50:50.202 [info] Extension host agent started.
+2024-11-23 18:50:50.463 [info] [127.0.0.1][eb4db7aa][ManagementConnection] New connection established.
+2024-11-23 18:50:51.138 [info] [127.0.0.1][e4a0acee][ExtensionHostConnection] New connection established.
+2024-11-23 18:50:51.279 [info] [127.0.0.1][e4a0acee][ExtensionHostConnection] <56358> Launched Extension Host Process.
+2024-11-23 18:51:00.678 [error] [File Watcher] Unexpected error: inotify_add_watch on '/root/.vscode-server/data/logs/20241114T090946/exthost1/vscode.github' failed: No such file or directory (EUNKNOWN) (path: /root)
+2024-11-23 18:51:00.679 [error] [File Watcher (universal)] inotify_add_watch on '/root/.vscode-server/data/logs/20241114T090946/exthost1/vscode.github' failed: No such file or directory
+2024-11-23 19:06:09.498 [info] [127.0.0.1][e4a0acee][ExtensionHostConnection] The client has reconnected.
+2024-11-23 19:06:09.652 [info] [127.0.0.1][eb4db7aa][ManagementConnection] The client has reconnected.
+2024-11-23 19:06:14.441 [info] [127.0.0.1][e4a0acee][ExtensionHostConnection] The client has reconnected.
+2024-11-23 20:37:54.714 [info] [127.0.0.1][eb4db7aa][ManagementConnection] The client has reconnected.
+2024-11-23 20:37:55.285 [info] [127.0.0.1][e4a0acee][ExtensionHostConnection] The client has reconnected.
