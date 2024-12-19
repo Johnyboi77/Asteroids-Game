@@ -1,0 +1,54 @@
+2024-12-17 09:01:35.817 [info] [main] Log level: Info
+2024-12-17 09:01:35.817 [info] [main] Validating found git in: "git"
+2024-12-17 09:01:36.080 [info] [main] Using git "2.43.0" from "git"
+2024-12-17 09:01:36.080 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-17 09:01:38.306 [info] > git rev-parse --show-toplevel [960ms]
+2024-12-17 09:01:38.346 [info] > git rev-parse --git-dir --git-common-dir [31ms]
+2024-12-17 09:01:38.379 [info] [Model][openRepository] Opened repository: /root
+2024-12-17 09:01:38.458 [info] > git rev-parse --show-toplevel [55ms]
+2024-12-17 09:01:38.461 [info] > git config --get commit.template [61ms]
+2024-12-17 09:01:38.508 [info] > git rev-parse --show-toplevel [38ms]
+2024-12-17 09:01:38.514 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-17 09:01:38.537 [info] > git rev-parse --git-dir --git-common-dir [24ms]
+2024-12-17 09:01:38.552 [info] [Model][openRepository] Opened repository: /root/workspace/Asteroids Game
+2024-12-17 09:01:38.608 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [79ms]
+2024-12-17 09:01:38.613 [info] > git rev-parse --show-toplevel [40ms]
+2024-12-17 09:01:38.614 [info] > git config --get commit.template [49ms]
+2024-12-17 09:01:38.639 [info] > git rev-parse --show-toplevel [12ms]
+2024-12-17 09:01:38.775 [info] > git rev-parse --show-toplevel [53ms]
+2024-12-17 09:01:38.787 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-17 09:01:38.809 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [172ms]
+2024-12-17 09:01:38.908 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-12-17 09:01:38.928 [info] > git status -z -uall [34ms]
+2024-12-17 09:01:38.989 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2024-12-17 09:01:39.015 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-12-17 09:01:39.015 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-17 09:01:39.026 [info] > git config --get commit.template [39ms]
+2024-12-17 09:01:39.041 [info] > git reflog main --grep-reflog=branch: Created from *. [16ms]
+2024-12-17 09:01:39.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-12-17 09:01:39.074 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [28ms]
+2024-12-17 09:01:39.074 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-12-17 09:01:39.075 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-12-17 09:01:39.098 [info] > git show --textconv :workspace/Website/public/index.html [41ms]
+2024-12-17 09:01:39.099 [info] > git merge-base refs/heads/main refs/remotes/origin/main [19ms]
+2024-12-17 09:01:39.104 [info] > git ls-files --stage -- /root/workspace/Website/public/index.html [42ms]
+2024-12-17 09:01:39.119 [info] > git diff --name-status -z --diff-filter=ADMR 22a7325bf8ea7dc087e6275305b9eaca22021c79...refs/remotes/origin/main [15ms]
+2024-12-17 09:01:39.125 [info] > git status -z -uall [14ms]
+2024-12-17 09:01:39.126 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2024-12-17 09:01:39.153 [info] > git blame --root --incremental e558e939fb0ecd33dd3f52068ab1c513ffbf1454 -- /root/workspace/Website/public/index.html [7ms]
+2024-12-17 09:01:39.153 [info] fatal: no such path workspace/Website/public/index.html in e558e939fb0ecd33dd3f52068ab1c513ffbf1454
+2024-12-17 09:01:39.327 [info] > git check-ignore -v -z --stdin [4ms]
+2024-12-17 09:01:39.396 [info] > git check-ignore -v -z --stdin [78ms]
+2024-12-17 09:01:40.250 [info] > git status -z -uall [1727ms] (cancelled)
+2024-12-17 09:01:42.060 [info] > git check-ignore -v -z --stdin [3ms]
+2024-12-17 09:01:51.506 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1159ms]
+2024-12-17 09:01:51.600 [info] > git config --local branch.main.vscode-merge-base [89ms]
+2024-12-17 09:01:51.601 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-17 09:01:51.609 [info] > git config --get commit.template [105ms]
+2024-12-17 09:01:51.615 [info] > git reflog main --grep-reflog=branch: Created from *. [7ms]
+2024-12-17 09:01:51.624 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-12-17 09:01:51.624 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-12-17 09:01:51.624 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-12-17 09:01:51.627 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-17 09:01:51.644 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-12-17 09:01:53.906 [info] > git status -z -uall [2275ms] (cancelled)

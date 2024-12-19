@@ -1,0 +1,135 @@
+2024-12-16 12:39:10.698 [info] (Client) Pylance async client (2024.11.3) started with python extension (2024.22.0)
+2024-12-16 12:39:10.798 [info] [Info  - 12:39:10 PM] (824) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-16 12:39:11.064 [info] [Info  - 12:39:11 PM] (824) Pylance language server 2024.11.3 (pyright version 1.1.386, commit 4180fa21) starting
+2024-12-16 12:39:11.081 [info] [Info  - 12:39:11 PM] (824) Starting service instance "workspace"
+2024-12-16 12:39:11.465 [info] [Info  - 12:39:11 PM] (824) Setting environmentName for service "workspace": "3.12.3 (venv venv)"
+2024-12-16 12:39:11.466 [info] [Info  - 12:39:11 PM] (824) Setting pythonPath for service "workspace": "/root/workspace/Asteroids/venv/bin/python"
+2024-12-16 12:39:11.467 [info] [Info  - 12:39:11 PM] (824) No include entries specified; assuming /root/workspace
+2024-12-16 12:39:11.468 [info] [Info  - 12:39:11 PM] (824) Auto-excluding **/node_modules
+2024-12-16 12:39:11.470 [info] [Info  - 12:39:11 PM] (824) Auto-excluding **/__pycache__
+2024-12-16 12:39:11.471 [info] [Info  - 12:39:11 PM] (824) Auto-excluding **/.*
+2024-12-16 12:39:11.589 [info] [Info  - 12:39:11 PM] (824) Assuming Python version 3.12.3.final.0
+2024-12-16 12:39:18.301 [info] [Info  - 12:39:18 PM] (824) Auto-excluding /root/workspace/Asteroids/venv
+2024-12-16 12:39:18.592 [info] [Info  - 12:39:18 PM] (824) Auto-excluding /root/workspace/venv
+2024-12-16 12:39:18.600 [info] [Info  - 12:39:18 PM] (824) Found 10 source files
+2024-12-16 12:39:18.690 [info] [Info  - 12:39:18 PM] (824) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-16 12:39:18.691 [info] [Info  - 12:39:18 PM] (824) Background analysis(1) started
+2024-12-16 12:39:18.691 [info] [Info  - 12:39:18 PM] (824) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist (index)
+2024-12-16 12:39:18.691 [info] [Info  - 12:39:18 PM] (824) Indexing(2) started
+2024-12-16 12:39:18.692 [info] [Info  - 12:39:18 PM] (824) [IDX(2)] Long operation: scan packages file:///root/workspace (2283ms)
+2024-12-16 12:39:18.699 [info] [Info  - 12:39:18 PM] (824) scanned(2) 11 files over 1 exec env
+2024-12-16 12:39:18.708 [info] [Info  - 12:39:18 PM] (824) indexed(2) 11 files over 1 exec env
+2024-12-16 12:39:18.709 [info] [Info  - 12:39:18 PM] (824) Indexing finished(2).
+2024-12-16 12:39:19.894 [info] [Info  - 12:39:19 PM] (824) [BG(1)] Long operation: checking: file:///root/workspace/Asteroids/main.py (2673ms)
+2024-12-16 12:39:19.894 [info] [Info  - 12:39:19 PM] (824) [BG(1)] Long operation: analyzing: file:///root/workspace/Asteroids/main.py (2699ms)
+2024-12-16 13:09:19.261 [info] [Info  - 1:09:19 PM] (824) Auto-excluding /root/workspace/Asteroids Game/venv
+2024-12-16 13:09:19.264 [info] [Info  - 1:09:19 PM] (824) Auto-excluding /root/workspace/venv
+2024-12-16 13:09:19.272 [info] [Info  - 1:09:19 PM] (824) Found 10 source files
+2024-12-16 13:10:02.613 [info] [Info  - 1:10:02 PM] (824) Auto-excluding /root/workspace/Asteroids Game/venv
+2024-12-16 13:10:02.618 [info] [Info  - 1:10:02 PM] (824) Auto-excluding /root/workspace/venv
+2024-12-16 13:10:02.633 [info] [Info  - 1:10:02 PM] (824) Found 10 source files
+2024-12-16 13:38:29.185 [info] [Info  - 1:38:29 PM] Server process exited successfully
+2024-12-16 13:38:30.181 [info] (Client) Pylance async client (2024.11.3) started with python extension (2024.22.0)
+2024-12-16 13:38:31.250 [info] [Info  - 1:38:31 PM] (10680) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-16 13:38:31.252 [info] [Info  - 1:38:31 PM] (10680) Pylance language server 2024.11.3 (pyright version 1.1.386, commit 4180fa21) starting
+2024-12-16 13:38:31.258 [info] [Info  - 1:38:31 PM] (10680) Starting service instance "workspace"
+2024-12-16 13:38:31.433 [info] [Info  - 1:38:31 PM] (10680) Setting environmentName for service "workspace": "3.12.3 (global)"
+2024-12-16 13:38:31.435 [info] [Info  - 1:38:31 PM] (10680) Setting pythonPath for service "workspace": "/root/workspace/Asteroids/venv/bin/python"
+2024-12-16 13:38:31.436 [info] [Info  - 1:38:31 PM] (10680) No include entries specified; assuming /root/workspace
+2024-12-16 13:38:31.438 [info] [Info  - 1:38:31 PM] (10680) Auto-excluding **/node_modules
+2024-12-16 13:38:31.439 [info] [Info  - 1:38:31 PM] (10680) Auto-excluding **/__pycache__
+2024-12-16 13:38:31.440 [info] [Info  - 1:38:31 PM] (10680) Auto-excluding **/.*
+2024-12-16 13:38:31.634 [info] [Info  - 1:38:31 PM] (10680) Auto-excluding /root/workspace/Asteroids Game/venv
+2024-12-16 13:38:31.642 [info] [Info  - 1:38:31 PM] (10680) Auto-excluding /root/workspace/venv
+2024-12-16 13:38:31.651 [info] [Info  - 1:38:31 PM] (10680) Found 10 source files
+2024-12-16 13:38:32.533 [info] [Info  - 1:38:32 PM] (10680) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-16 13:38:32.538 [info] [Info  - 1:38:32 PM] (10680) Background analysis(1) started
+2024-12-16 13:38:32.687 [info] [Info  - 1:38:32 PM] (10680) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist (index)
+2024-12-16 13:38:32.687 [info] [Info  - 1:38:32 PM] (10680) Indexing(2) started
+2024-12-16 13:38:33.355 [info] [Info  - 1:38:33 PM] (10680) scanned(2) 1 files over 1 exec env
+2024-12-16 13:38:33.795 [info] [Info  - 1:38:33 PM] (10680) indexed(2) 1 files over 1 exec env
+2024-12-16 13:38:33.839 [info] [Info  - 1:38:33 PM] (10680) Indexing finished(2).
+2024-12-16 13:38:52.210 [info] [Info  - 1:38:52 PM] Server process exited successfully
+2024-12-16 13:38:53.042 [info] (Client) Pylance async client (2024.11.3) started with python extension (2024.22.0)
+2024-12-16 13:38:53.704 [info] [Info  - 1:38:53 PM] (10801) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-16 13:38:53.706 [info] [Info  - 1:38:53 PM] (10801) Pylance language server 2024.11.3 (pyright version 1.1.386, commit 4180fa21) starting
+2024-12-16 13:38:53.714 [info] [Info  - 1:38:53 PM] (10801) Starting service instance "workspace"
+2024-12-16 13:38:53.783 [info] [Info  - 1:38:53 PM] (10801) Setting environmentName for service "workspace": "3.12.3 (global)"
+2024-12-16 13:38:53.784 [info] [Info  - 1:38:53 PM] (10801) Setting pythonPath for service "workspace": "/root/workspace/Asteroids/venv/bin/python"
+2024-12-16 13:38:53.785 [info] [Info  - 1:38:53 PM] (10801) No include entries specified; assuming /root/workspace
+2024-12-16 13:38:53.786 [info] [Info  - 1:38:53 PM] (10801) Auto-excluding **/node_modules
+2024-12-16 13:38:53.786 [info] [Info  - 1:38:53 PM] (10801) Auto-excluding **/__pycache__
+2024-12-16 13:38:53.787 [info] [Info  - 1:38:53 PM] (10801) Auto-excluding **/.*
+2024-12-16 13:38:53.842 [info] [Info  - 1:38:53 PM] (10801) Auto-excluding /root/workspace/Asteroids Game/venv
+2024-12-16 13:38:53.846 [info] [Info  - 1:38:53 PM] (10801) Auto-excluding /root/workspace/venv
+2024-12-16 13:38:53.854 [info] [Info  - 1:38:53 PM] (10801) Found 10 source files
+2024-12-16 13:38:54.409 [info] [Info  - 1:38:54 PM] (10801) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-16 13:38:54.412 [info] [Info  - 1:38:54 PM] (10801) Background analysis(1) started
+2024-12-16 13:38:54.510 [info] [Info  - 1:38:54 PM] (10801) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist (index)
+2024-12-16 13:38:54.510 [info] [Info  - 1:38:54 PM] (10801) Indexing(2) started
+2024-12-16 13:38:55.094 [info] [Info  - 1:38:55 PM] (10801) scanned(2) 1 files over 1 exec env
+2024-12-16 13:38:55.508 [info] [Info  - 1:38:55 PM] (10801) indexed(2) 1 files over 1 exec env
+2024-12-16 13:38:55.578 [info] [Info  - 1:38:55 PM] (10801) Indexing finished(2).
+2024-12-16 13:39:26.269 [info] [Info  - 1:39:26 PM] Server process exited successfully
+2024-12-16 13:39:27.057 [info] (Client) Pylance async client (2024.11.3) started with python extension (2024.22.0)
+2024-12-16 13:39:28.011 [info] [Info  - 1:39:28 PM] (10904) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-16 13:39:28.013 [info] [Info  - 1:39:28 PM] (10904) Pylance language server 2024.11.3 (pyright version 1.1.386, commit 4180fa21) starting
+2024-12-16 13:39:28.026 [info] [Info  - 1:39:28 PM] (10904) Starting service instance "workspace"
+2024-12-16 13:39:28.168 [info] [Info  - 1:39:28 PM] (10904) Setting environmentName for service "workspace": "3.12.3 (global)"
+2024-12-16 13:39:28.169 [info] [Info  - 1:39:28 PM] (10904) Setting pythonPath for service "workspace": "/root/workspace/Asteroids/venv/bin/python"
+2024-12-16 13:39:28.170 [info] [Info  - 1:39:28 PM] (10904) No include entries specified; assuming /root/workspace
+2024-12-16 13:39:28.171 [info] [Info  - 1:39:28 PM] (10904) Auto-excluding **/node_modules
+2024-12-16 13:39:28.171 [info] [Info  - 1:39:28 PM] (10904) Auto-excluding **/__pycache__
+2024-12-16 13:39:28.172 [info] [Info  - 1:39:28 PM] (10904) Auto-excluding **/.*
+2024-12-16 13:39:28.239 [info] [Info  - 1:39:28 PM] (10904) Auto-excluding /root/workspace/Asteroids Game/venv
+2024-12-16 13:39:28.244 [info] [Info  - 1:39:28 PM] (10904) Auto-excluding /root/workspace/venv
+2024-12-16 13:39:28.361 [info] [Info  - 1:39:28 PM] (10904) Found 10 source files
+2024-12-16 13:39:29.023 [info] [Info  - 1:39:29 PM] (10904) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-16 13:39:29.027 [info] [Info  - 1:39:29 PM] (10904) Background analysis(1) started
+2024-12-16 13:39:29.131 [info] [Info  - 1:39:29 PM] (10904) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist (index)
+2024-12-16 13:39:29.132 [info] [Info  - 1:39:29 PM] (10904) Indexing(2) started
+2024-12-16 13:39:29.689 [info] [Info  - 1:39:29 PM] (10904) scanned(2) 1 files over 1 exec env
+2024-12-16 13:39:30.050 [info] [Info  - 1:39:30 PM] (10904) indexed(2) 1 files over 1 exec env
+2024-12-16 13:39:30.093 [info] [Info  - 1:39:30 PM] (10904) Indexing finished(2).
+2024-12-16 13:39:45.025 [info] [Info  - 1:39:45 PM] Server process exited successfully
+2024-12-16 13:39:45.852 [info] (Client) Pylance async client (2024.11.3) started with python extension (2024.22.0)
+2024-12-16 13:39:46.359 [info] [Info  - 1:39:46 PM] (10970) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-16 13:39:46.360 [info] [Info  - 1:39:46 PM] (10970) Pylance language server 2024.11.3 (pyright version 1.1.386, commit 4180fa21) starting
+2024-12-16 13:39:46.366 [info] [Info  - 1:39:46 PM] (10970) Starting service instance "workspace"
+2024-12-16 13:39:46.412 [info] [Info  - 1:39:46 PM] (10970) Setting environmentName for service "workspace": "3.12.3 (global)"
+2024-12-16 13:39:46.413 [info] [Info  - 1:39:46 PM] (10970) Setting pythonPath for service "workspace": "/root/workspace/Asteroids/venv/bin/python"
+2024-12-16 13:39:46.414 [info] [Info  - 1:39:46 PM] (10970) No include entries specified; assuming /root/workspace
+2024-12-16 13:39:46.414 [info] [Info  - 1:39:46 PM] (10970) Auto-excluding **/node_modules
+2024-12-16 13:39:46.415 [info] [Info  - 1:39:46 PM] (10970) Auto-excluding **/__pycache__
+2024-12-16 13:39:46.418 [info] [Info  - 1:39:46 PM] (10970) Auto-excluding **/.*
+2024-12-16 13:39:46.455 [info] [Info  - 1:39:46 PM] (10970) Auto-excluding /root/workspace/Asteroids Game/venv
+2024-12-16 13:39:46.457 [info] [Info  - 1:39:46 PM] (10970) Auto-excluding /root/workspace/venv
+2024-12-16 13:39:46.463 [info] [Info  - 1:39:46 PM] (10970) Found 10 source files
+2024-12-16 13:39:47.052 [info] [Info  - 1:39:47 PM] (10970) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-16 13:39:47.052 [info] [Info  - 1:39:47 PM] (10970) Background analysis(1) started
+2024-12-16 13:39:47.081 [info] [Info  - 1:39:47 PM] (10970) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist (index)
+2024-12-16 13:39:47.081 [info] [Info  - 1:39:47 PM] (10970) Indexing(2) started
+2024-12-16 13:39:47.484 [info] [Info  - 1:39:47 PM] (10970) scanned(2) 1 files over 1 exec env
+2024-12-16 13:39:47.725 [info] [Info  - 1:39:47 PM] (10970) indexed(2) 1 files over 1 exec env
+2024-12-16 13:39:47.745 [info] [Info  - 1:39:47 PM] (10970) Indexing finished(2).
+2024-12-16 13:40:26.004 [info] [Info  - 1:40:26 PM] Server process exited successfully
+2024-12-16 13:40:26.724 [info] (Client) Pylance async client (2024.11.3) started with python extension (2024.22.0)
+2024-12-16 13:40:27.415 [info] [Info  - 1:40:27 PM] (11115) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-16 13:40:27.416 [info] [Info  - 1:40:27 PM] (11115) Pylance language server 2024.11.3 (pyright version 1.1.386, commit 4180fa21) starting
+2024-12-16 13:40:27.427 [info] [Info  - 1:40:27 PM] (11115) Starting service instance "workspace"
+2024-12-16 13:40:27.596 [info] [Info  - 1:40:27 PM] (11115) Setting environmentName for service "workspace": "3.12.3 (global)"
+2024-12-16 13:40:27.597 [info] [Info  - 1:40:27 PM] (11115) Setting pythonPath for service "workspace": "/root/workspace/Asteroids/venv/bin/python"
+2024-12-16 13:40:27.598 [info] [Info  - 1:40:27 PM] (11115) No include entries specified; assuming /root/workspace
+2024-12-16 13:40:27.599 [info] [Info  - 1:40:27 PM] (11115) Auto-excluding **/node_modules
+2024-12-16 13:40:27.599 [info] [Info  - 1:40:27 PM] (11115) Auto-excluding **/__pycache__
+2024-12-16 13:40:27.599 [info] [Info  - 1:40:27 PM] (11115) Auto-excluding **/.*
+2024-12-16 13:40:27.646 [info] [Info  - 1:40:27 PM] (11115) Auto-excluding /root/workspace/Asteroids Game/venv
+2024-12-16 13:40:27.648 [info] [Info  - 1:40:27 PM] (11115) Auto-excluding /root/workspace/venv
+2024-12-16 13:40:27.656 [info] [Info  - 1:40:27 PM] (11115) Found 10 source files
+2024-12-16 13:40:28.324 [info] [Info  - 1:40:28 PM] (11115) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-16 13:40:28.328 [info] [Info  - 1:40:28 PM] (11115) Background analysis(1) started
+2024-12-16 13:40:28.347 [info] [Info  - 1:40:28 PM] (11115) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist (index)
+2024-12-16 13:40:28.347 [info] [Info  - 1:40:28 PM] (11115) Indexing(2) started
+2024-12-16 13:40:28.816 [info] [Info  - 1:40:28 PM] (11115) scanned(2) 1 files over 1 exec env
+2024-12-16 13:40:29.074 [info] [Info  - 1:40:29 PM] (11115) indexed(2) 1 files over 1 exec env
+2024-12-16 13:40:29.093 [info] [Info  - 1:40:29 PM] (11115) Indexing finished(2).

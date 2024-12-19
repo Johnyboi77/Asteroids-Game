@@ -1,0 +1,25 @@
+2024-12-15 19:55:31.351 [info] (Client) Pylance async client (2024.11.3) started with python extension (2024.20.0)
+2024-12-15 19:55:33.942 [info] [Info  - 7:55:33 PM] (893) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-15 19:55:33.945 [info] [Info  - 7:55:33 PM] (893) Pylance language server 2024.11.3 (pyright version 1.1.386, commit 4180fa21) starting
+2024-12-15 19:55:33.947 [info] [Info  - 7:55:33 PM] (893) Starting service instance "workspace"
+2024-12-15 19:55:34.339 [info] [Info  - 7:55:34 PM] (893) Setting environmentName for service "workspace": "3.12.3 (venv venv)"
+2024-12-15 19:55:34.356 [info] [Info  - 7:55:34 PM] (893) Setting pythonPath for service "workspace": "/root/workspace/Asteroids/venv/bin/python"
+2024-12-15 19:55:34.356 [info] [Info  - 7:55:34 PM] (893) No include entries specified; assuming /root/workspace
+2024-12-15 19:55:34.356 [info] [Info  - 7:55:34 PM] (893) Auto-excluding **/node_modules
+2024-12-15 19:55:34.356 [info] [Info  - 7:55:34 PM] (893) Auto-excluding **/__pycache__
+2024-12-15 19:55:34.356 [info] [Info  - 7:55:34 PM] (893) Auto-excluding **/.*
+2024-12-15 19:55:34.467 [info] [Info  - 7:55:34 PM] (893) Assuming Python version 3.12.3.final.0
+2024-12-15 19:55:35.087 [info] [Info  - 7:55:35 PM] (893) Auto-excluding /root/workspace/Asteroids/venv
+2024-12-15 19:55:35.088 [info] [Info  - 7:55:35 PM] (893) Auto-excluding /root/workspace/venv
+2024-12-15 19:55:35.124 [info] [Info  - 7:55:35 PM] (893) Found 10 source files
+2024-12-15 19:55:39.542 [info] [Info  - 7:55:39 PM] (893) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-15 19:55:39.575 [info] [Info  - 7:55:39 PM] (893) Background analysis(1) started
+2024-12-15 19:55:40.456 [info] [Info  - 7:55:40 PM] (893) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist (index)
+2024-12-15 19:55:40.457 [info] [Info  - 7:55:40 PM] (893) Indexing(2) started
+2024-12-15 19:55:46.803 [info] [Info  - 7:55:46 PM] (893) [IDX(2)] Long operation: scan packages file:///root/workspace (6170ms)
+2024-12-15 19:55:46.804 [info] [Info  - 7:55:46 PM] (893) scanned(2) 11 files over 1 exec env
+2024-12-15 19:55:49.367 [info] [Info  - 7:55:49 PM] (893) indexed(2) 11 files over 1 exec env
+2024-12-15 19:55:49.759 [info] [Info  - 7:55:49 PM] (893) Indexing finished(2).
+2024-12-15 19:55:50.393 [info] [Info  - 7:55:50 PM] (893) [BG(1)] Long operation: SemanticTokens full at file:///root/workspace/Asteroids/main.py (9995ms)
+2024-12-15 19:55:53.604 [info] [Info  - 7:55:53 PM] (893) [BG(1)] Long operation: parsing: file:///root/workspace/Asteroids/get-pip.py (2949ms)
+2024-12-15 19:55:53.895 [info] [Info  - 7:55:53 PM] (893) [BG(1)] Long operation: indexing: file:///root/workspace/Asteroids/get-pip.py (3241ms)

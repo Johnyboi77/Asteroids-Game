@@ -1,0 +1,19 @@
+2024-12-16 12:39:05.700 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-16 12:39:05.701 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-16 12:39:05.701 [info] Experiment 'pythonTestAdapter' is active
+2024-12-16 12:39:05.701 [info] Native locator: Refresh started
+2024-12-16 12:39:05.701 [info] Native locator: Refresh started
+2024-12-16 12:39:05.789 [info] > pyenv which python
+2024-12-16 12:39:05.790 [info] cwd: .
+2024-12-16 12:39:06.139 [info] Python interpreter path: ./Asteroids/venv/bin/python
+2024-12-16 12:39:11.182 [info] Starting Pylance language server.
+2024-12-16 12:39:18.583 [info] > . ./Asteroids/venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-server/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariables.py
+2024-12-16 12:39:18.583 [info] shell: bash
+2024-12-16 12:39:18.697 [info] Native locator: Refresh finished in 15025 ms
+2024-12-16 12:39:18.905 [info] > /bin/python3 ~/.vscode-server/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariables.py
+2024-12-16 12:39:18.905 [info] shell: bash
+2024-12-16 12:39:19.177 [info] Setting environment variable VIRTUAL_ENV in collection to /root/workspace/Asteroids/venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-12-16 12:39:19.177 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-12-16 12:39:19.177 [info] Prepending environment variable PS1 in collection with (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-12-16 12:39:19.177 [info] Prepending environment variable PATH in collection with /root/.vscode-server/extensions/ms-python.python-2024.22.0-linux-x64/python_files/deactivate/bash:/root/workspace/Asteroids/venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-12-16 12:39:19.180 [info] Send text to terminal: /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.22.0-linux-x64/python_files/deactivate/bash/envVars.txt

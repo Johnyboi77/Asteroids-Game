@@ -1,0 +1,32 @@
+2024-12-17 11:06:37.650 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-17 11:06:37.650 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-17 11:06:37.650 [info] Experiment 'pythonTestAdapter' is active
+2024-12-17 11:06:37.650 [info] Native locator: Refresh started
+2024-12-17 11:06:37.650 [info] Native locator: Refresh started
+2024-12-17 11:06:37.658 [info] > pyenv which python
+2024-12-17 11:06:37.658 [info] cwd: .
+2024-12-17 11:06:37.763 [info] Python interpreter path: ./Asteroids/venv/bin/python
+2024-12-17 11:06:38.656 [info] Starting Pylance language server.
+2024-12-17 11:06:42.252 [info] Native locator: Refresh finished in 6123 ms
+2024-12-17 11:06:42.682 [error] Active interpreter type is detected as Unknown {"id":"/root/workspace/Asteroids/venv/bin/python","sysPrefix":"/root/workspace/Asteroids/venv","envType":"Unknown","envName":"","envPath":"/root/workspace/Asteroids/venv/bin/python","path":"/root/workspace/Asteroids/venv/bin/python","architecture":3,"sysVersion":"","version":{"raw":"3.12.3","major":3,"minor":12,"patch":3,"build":[],"prerelease":[]},"displayName":"Python 3.12.3","detailedDisplayName":"Python 3.12.3"}
+2024-12-17 11:06:53.009 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Website/src/main.py
+2024-12-17 11:08:16.535 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Website/src/main.py
+2024-12-17 11:08:18.017 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Website/src/main.py
+2024-12-17 11:18:48.444 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Website/src/textnote.py
+2024-12-17 11:21:01.093 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Website/main.py
+2024-12-17 11:23:27.288 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Website/src/main.py
+2024-12-17 11:25:20.059 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Website/src/main.py
+2024-12-17 11:25:41.331 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Website/src/textnode.py
+2024-12-17 11:29:28.032 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-17 11:29:28.033 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-17 11:29:28.033 [info] Experiment 'pythonTestAdapter' is active
+2024-12-17 11:29:28.033 [info] Native locator: Refresh started
+2024-12-17 11:29:28.033 [info] Native locator: Refresh started
+2024-12-17 11:29:29.781 [info] > pyenv which python
+2024-12-17 11:29:29.781 [info] cwd: .
+2024-12-17 11:29:33.255 [info] Python interpreter path: ./Asteroids/venv/bin/python
+2024-12-17 11:29:34.816 [info] Starting Pylance language server.
+2024-12-17 11:29:37.162 [info] Native locator: Refresh finished in 11990 ms
+2024-12-17 11:29:37.164 [error] Active interpreter type is detected as Unknown {"id":"/root/workspace/Asteroids/venv/bin/python","sysPrefix":"/root/workspace/Asteroids/venv","envType":"Unknown","envName":"","envPath":"/root/workspace/Asteroids/venv/bin/python","path":"/root/workspace/Asteroids/venv/bin/python","architecture":3,"sysVersion":"","version":{"raw":"3.12.3","major":3,"minor":12,"patch":3,"build":[],"prerelease":[]},"displayName":"Python 3.12.3","detailedDisplayName":"Python 3.12.3"}
+2024-12-17 11:29:55.700 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Website/src/textnode.py
+2024-12-17 11:29:56.700 [info] Discover tests for workspace name: workspace - uri: /root/workspace/Website/src/textnode.py

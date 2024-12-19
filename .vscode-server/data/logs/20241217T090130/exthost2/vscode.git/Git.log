@@ -1,0 +1,198 @@
+2024-12-17 09:02:08.326 [info] [main] Log level: Info
+2024-12-17 09:02:08.326 [info] [main] Validating found git in: "git"
+2024-12-17 09:02:08.326 [info] [main] Using git "2.43.0" from "git"
+2024-12-17 09:02:08.326 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-17 09:02:08.326 [info] > git rev-parse --show-toplevel [12ms]
+2024-12-17 09:02:08.326 [info] > git rev-parse --git-dir --git-common-dir [313ms]
+2024-12-17 09:02:08.326 [info] [Model][openRepository] Opened repository: /root
+2024-12-17 09:02:08.326 [info] > git rev-parse --show-toplevel [11ms]
+2024-12-17 09:02:08.326 [info] > git config --get commit.template [15ms]
+2024-12-17 09:02:08.344 [info] > git rev-parse --show-toplevel [22ms]
+2024-12-17 09:02:08.354 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2024-12-17 09:02:08.367 [info] > git rev-parse --git-dir --git-common-dir [14ms]
+2024-12-17 09:02:08.376 [info] [Model][openRepository] Opened repository: /root/workspace/Asteroids Game
+2024-12-17 09:02:08.400 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [34ms]
+2024-12-17 09:02:08.433 [info] > git rev-parse --show-toplevel [34ms]
+2024-12-17 09:02:08.434 [info] > git config --get commit.template [41ms]
+2024-12-17 09:02:08.453 [info] > git rev-parse --show-toplevel [9ms]
+2024-12-17 09:02:08.495 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [44ms]
+2024-12-17 09:02:08.588 [info] > git rev-parse --show-toplevel [130ms]
+2024-12-17 09:02:08.595 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-17 09:02:08.651 [info] > git status -z -uall [14ms]
+2024-12-17 09:02:08.653 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2024-12-17 09:02:08.679 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-12-17 09:02:08.691 [info] > git config --local branch.main.vscode-merge-base [6ms]
+2024-12-17 09:02:08.691 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-17 09:02:08.695 [info] > git config --get commit.template [20ms]
+2024-12-17 09:02:08.710 [info] > git reflog main --grep-reflog=branch: Created from *. [16ms]
+2024-12-17 09:02:08.716 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-17 09:02:08.720 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6ms]
+2024-12-17 09:02:08.720 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-12-17 09:02:08.720 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-12-17 09:02:08.731 [info] > git status -z -uall [371ms] (cancelled)
+2024-12-17 09:02:08.731 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2024-12-17 09:02:08.741 [info] > git diff --name-status -z --diff-filter=ADMR 22a7325bf8ea7dc087e6275305b9eaca22021c79...refs/remotes/origin/main [5ms]
+2024-12-17 09:02:08.754 [info] > git status -z -uall [8ms]
+2024-12-17 09:02:08.755 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-12-17 09:02:08.834 [info] > git show --textconv :workspace/Website/public/index.html [18ms]
+2024-12-17 09:02:08.845 [info] > git ls-files --stage -- /root/workspace/Website/public/index.html [23ms]
+2024-12-17 09:02:08.866 [info] > git blame --root --incremental e558e939fb0ecd33dd3f52068ab1c513ffbf1454 -- /root/workspace/Website/public/index.html [2ms]
+2024-12-17 09:02:08.866 [info] fatal: no such path workspace/Website/public/index.html in e558e939fb0ecd33dd3f52068ab1c513ffbf1454
+2024-12-17 09:02:09.087 [info] > git check-ignore -v -z --stdin [5ms]
+2024-12-17 09:02:09.102 [info] > git check-ignore -v -z --stdin [26ms]
+2024-12-17 09:02:37.157 [info] > git show --textconv :workspace/Website/public/styles.css [10ms]
+2024-12-17 09:02:37.160 [info] > git ls-files --stage -- /root/workspace/Website/public/styles.css [9ms]
+2024-12-17 09:02:37.435 [info] > git check-ignore -v -z --stdin [12ms]
+2024-12-17 09:02:39.443 [info] > git blame --root --incremental e558e939fb0ecd33dd3f52068ab1c513ffbf1454 -- /root/workspace/Website/public/styles.css [4ms]
+2024-12-17 09:02:39.443 [info] fatal: no such path workspace/Website/public/styles.css in e558e939fb0ecd33dd3f52068ab1c513ffbf1454
+2024-12-17 09:02:45.119 [info] > git check-ignore -v -z --stdin [4ms]
+2024-12-17 09:03:51.710 [info] > git show --textconv :workspace/Website/public/index.html [15ms]
+2024-12-17 09:03:51.714 [info] > git ls-files --stage -- /root/workspace/Website/public/index.html [13ms]
+2024-12-17 09:04:20.033 [info] > git show --textconv :workspace/Website/public/styles.css [17ms]
+2024-12-17 09:04:20.038 [info] > git ls-files --stage -- /root/workspace/Website/public/styles.css [17ms]
+2024-12-17 09:04:21.231 [info] > git show --textconv :workspace/Website/public/index.html [7ms]
+2024-12-17 09:04:21.236 [info] > git ls-files --stage -- /root/workspace/Website/public/index.html [6ms]
+2024-12-17 09:04:51.251 [info] > git show --textconv :workspace/Website/public/index.html [17ms]
+2024-12-17 09:04:51.255 [info] > git ls-files --stage -- /root/workspace/Website/public/index.html [15ms]
+2024-12-17 10:15:59.228 [info] > git ls-files --stage -- /root/workspace/Website/public/styles.css [42ms]
+2024-12-17 10:15:59.231 [info] > git show --textconv :workspace/Website/public/styles.css [48ms]
+2024-12-17 11:05:44.202 [info] > git show --textconv :workspace/Website/public/main.sh [8ms]
+2024-12-17 11:05:44.206 [info] > git ls-files --stage -- /root/workspace/Website/public/main.sh [8ms]
+2024-12-17 11:05:44.483 [info] > git check-ignore -v -z --stdin [15ms]
+2024-12-17 11:05:48.404 [info] > git show --textconv :workspace/Website/main.sh [10ms]
+2024-12-17 11:05:48.413 [info] > git ls-files --stage -- /root/workspace/Website/main.sh [14ms]
+2024-12-17 11:05:48.675 [info] > git check-ignore -v -z --stdin [11ms]
+2024-12-17 11:06:29.278 [info] > git check-ignore -v -z --stdin [22ms]
+2024-12-17 11:06:36.208 [info] > git check-ignore -v -z --stdin [154ms]
+2024-12-17 11:06:37.348 [info] > git show --textconv :workspace/Website/src/main.py [1111ms]
+2024-12-17 11:06:37.350 [info] > git ls-files --stage -- /root/workspace/Website/src/main.py [1105ms]
+2024-12-17 11:06:45.511 [info] > git blame --root --incremental e558e939fb0ecd33dd3f52068ab1c513ffbf1454 -- /root/workspace/Website/src/main.py [14ms]
+2024-12-17 11:06:45.511 [info] fatal: no such path workspace/Website/src/main.py in e558e939fb0ecd33dd3f52068ab1c513ffbf1454
+2024-12-17 11:07:42.277 [info] > git show --textconv :workspace/Website/main.sh [13ms]
+2024-12-17 11:07:42.278 [info] > git ls-files --stage -- /root/workspace/Website/main.sh [9ms]
+2024-12-17 11:07:48.877 [info] > git blame --root --incremental e558e939fb0ecd33dd3f52068ab1c513ffbf1454 -- /root/workspace/Website/main.sh [3ms]
+2024-12-17 11:07:48.877 [info] fatal: no such path workspace/Website/main.sh in e558e939fb0ecd33dd3f52068ab1c513ffbf1454
+2024-12-17 11:07:59.114 [info] > git show --textconv :workspace/Website/src/main.py [20ms]
+2024-12-17 11:07:59.119 [info] > git ls-files --stage -- /root/workspace/Website/src/main.py [16ms]
+2024-12-17 11:08:18.833 [info] > git show --textconv :workspace/Website/main.sh [7ms]
+2024-12-17 11:08:18.838 [info] > git ls-files --stage -- /root/workspace/Website/main.sh [7ms]
+2024-12-17 11:08:30.133 [info] > git show --textconv :workspace/Website/src/main.py [11ms]
+2024-12-17 11:08:30.137 [info] > git ls-files --stage -- /root/workspace/Website/src/main.py [8ms]
+2024-12-17 11:09:32.533 [info] > git check-ignore -v -z --stdin [15ms]
+2024-12-17 11:09:38.225 [info] > git check-ignore -v -z --stdin [11ms]
+2024-12-17 11:09:47.914 [info] > git show --textconv :workspace/Website/.gitignore [17ms]
+2024-12-17 11:09:47.921 [info] > git ls-files --stage -- /root/workspace/Website/.gitignore [15ms]
+2024-12-17 11:11:49.149 [info] > git check-ignore -v -z --stdin [18ms]
+2024-12-17 11:12:41.112 [info] > git show --textconv :workspace/Website/src/textnote.py [14ms]
+2024-12-17 11:12:41.119 [info] > git ls-files --stage -- /root/workspace/Website/src/textnote.py [14ms]
+2024-12-17 11:12:41.339 [info] > git check-ignore -v -z --stdin [22ms]
+2024-12-17 11:12:52.610 [info] > git check-ignore -v -z --stdin [20ms]
+2024-12-17 11:13:01.124 [info] > git show --textconv :workspace/Website/main.sh [13ms]
+2024-12-17 11:13:01.132 [info] > git ls-files --stage -- /root/workspace/Website/main.sh [11ms]
+2024-12-17 11:14:07.549 [info] > git show --textconv :workspace/Website/src/textnote.py [13ms]
+2024-12-17 11:14:07.557 [info] > git ls-files --stage -- /root/workspace/Website/src/textnote.py [14ms]
+2024-12-17 11:14:17.971 [info] > git blame --root --incremental e558e939fb0ecd33dd3f52068ab1c513ffbf1454 -- /root/workspace/Website/src/textnote.py [3ms]
+2024-12-17 11:14:17.971 [info] fatal: no such path workspace/Website/src/textnote.py in e558e939fb0ecd33dd3f52068ab1c513ffbf1454
+2024-12-17 11:19:30.923 [info] > git show --textconv :workspace/Website/src/textnode.py [16ms]
+2024-12-17 11:19:30.929 [info] > git ls-files --stage -- /root/workspace/Website/src/textnode.py [13ms]
+2024-12-17 11:19:31.005 [info] > git blame --root --incremental e558e939fb0ecd33dd3f52068ab1c513ffbf1454 -- /root/workspace/Website/src/textnode.py [2ms]
+2024-12-17 11:19:31.005 [info] fatal: no such path workspace/Website/src/textnode.py in e558e939fb0ecd33dd3f52068ab1c513ffbf1454
+2024-12-17 11:19:31.178 [info] > git check-ignore -v -z --stdin [16ms]
+2024-12-17 11:21:00.386 [info] > git show --textconv :workspace/Website/main.py [10ms]
+2024-12-17 11:21:00.391 [info] > git ls-files --stage -- /root/workspace/Website/main.py [8ms]
+2024-12-17 11:21:00.410 [info] > git blame --root --incremental e558e939fb0ecd33dd3f52068ab1c513ffbf1454 -- /root/workspace/Website/main.py [3ms]
+2024-12-17 11:21:00.411 [info] fatal: no such path workspace/Website/main.py in e558e939fb0ecd33dd3f52068ab1c513ffbf1454
+2024-12-17 11:23:25.358 [info] > git show --textconv :workspace/Website/src/main.py [17ms]
+2024-12-17 11:23:25.365 [info] > git ls-files --stage -- /root/workspace/Website/src/main.py [13ms]
+2024-12-17 11:25:01.363 [info] > git show --textconv :workspace/Website/main.sh [9ms]
+2024-12-17 11:25:01.377 [info] > git ls-files --stage -- /root/workspace/Website/main.sh [15ms]
+2024-12-17 11:25:07.792 [info] > git show --textconv :workspace/Website/src/main.py [13ms]
+2024-12-17 11:25:07.801 [info] > git ls-files --stage -- /root/workspace/Website/src/main.py [12ms]
+2024-12-17 11:25:22.016 [info] > git show --textconv :workspace/Website/src/textnode.py [19ms]
+2024-12-17 11:25:22.022 [info] > git ls-files --stage -- /root/workspace/Website/src/textnode.py [16ms]
+2024-12-17 11:29:29.348 [info] [main] Log level: Info
+2024-12-17 11:29:29.349 [info] [main] Validating found git in: "git"
+2024-12-17 11:29:29.349 [info] [main] Using git "2.43.0" from "git"
+2024-12-17 11:29:29.349 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-17 11:29:29.349 [info] > git rev-parse --show-toplevel [1506ms]
+2024-12-17 11:29:29.476 [info] > git rev-parse --git-dir --git-common-dir [116ms]
+2024-12-17 11:29:29.513 [info] [Model][openRepository] Opened repository: /root
+2024-12-17 11:29:29.873 [info] > git rev-parse --show-toplevel [331ms]
+2024-12-17 11:29:29.876 [info] > git config --get commit.template [338ms]
+2024-12-17 11:29:31.286 [info] > git rev-parse --show-toplevel [1367ms]
+2024-12-17 11:29:31.359 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [138ms]
+2024-12-17 11:29:31.546 [info] > git rev-parse --git-dir --git-common-dir [190ms]
+2024-12-17 11:29:31.563 [info] [Model][openRepository] Opened repository: /root/workspace/Asteroids Game
+2024-12-17 11:29:32.591 [info] > git check-ignore -v -z --stdin [1639ms]
+2024-12-17 11:29:32.598 [info] > git blame --root --incremental e558e939fb0ecd33dd3f52068ab1c513ffbf1454 -- /root/workspace/Website/src/textnode.py [264ms]
+2024-12-17 11:29:32.598 [info] fatal: no such path workspace/Website/src/textnode.py in e558e939fb0ecd33dd3f52068ab1c513ffbf1454
+2024-12-17 11:29:32.602 [info] > git rev-parse --show-toplevel [308ms]
+2024-12-17 11:29:32.604 [info] > git config --get commit.template [321ms]
+2024-12-17 11:29:32.623 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1213ms]
+2024-12-17 11:29:32.890 [info] > git rev-parse --show-toplevel [33ms]
+2024-12-17 11:29:32.912 [info] > git check-ignore -v -z --stdin [34ms]
+2024-12-17 11:29:32.914 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2024-12-17 11:29:32.919 [info] > git check-ignore -v -z --stdin [51ms]
+2024-12-17 11:29:32.922 [info] > git rev-parse --show-toplevel [11ms]
+2024-12-17 11:29:32.927 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-17 11:29:32.964 [info] > git status -z -uall [15ms]
+2024-12-17 11:29:32.966 [info] > git ls-files --stage -- /root/workspace/Website/src/textnode.py [32ms]
+2024-12-17 11:29:32.973 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2024-12-17 11:29:33.005 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-12-17 11:29:33.024 [info] > git config --get commit.template [22ms]
+2024-12-17 11:29:33.030 [info] > git config --local branch.main.vscode-merge-base [17ms]
+2024-12-17 11:29:33.031 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-17 11:29:33.064 [info] > git show --textconv :workspace/Website/src/textnode.py [41ms]
+2024-12-17 11:29:33.074 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2024-12-17 11:29:33.074 [info] > git reflog main --grep-reflog=branch: Created from *. [36ms]
+2024-12-17 11:29:33.087 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2024-12-17 11:29:33.088 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-12-17 11:29:33.088 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-12-17 11:29:33.104 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2024-12-17 11:29:33.147 [info] > git status -z -uall [25ms]
+2024-12-17 11:29:33.148 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2024-12-17 11:29:33.163 [info] > git diff --name-status -z --diff-filter=ADMR 22a7325bf8ea7dc087e6275305b9eaca22021c79...refs/remotes/origin/main [50ms]
+2024-12-17 11:29:33.172 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2024-12-17 11:29:33.185 [info] > git diff --name-status -z --diff-filter=ADMR 22a7325bf8ea7dc087e6275305b9eaca22021c79...refs/remotes/origin/main [5ms]
+2024-12-17 11:29:34.541 [info] > git status -z -uall [3150ms] (cancelled)
+2024-12-17 11:29:52.036 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1497ms]
+2024-12-17 11:29:52.113 [info] > git config --local branch.main.vscode-merge-base [70ms]
+2024-12-17 11:29:52.114 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-17 11:29:52.126 [info] > git config --get commit.template [89ms]
+2024-12-17 11:29:52.145 [info] > git reflog main --grep-reflog=branch: Created from *. [21ms]
+2024-12-17 11:29:52.158 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-12-17 11:29:52.184 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [26ms]
+2024-12-17 11:29:52.184 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-12-17 11:29:52.184 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-12-17 11:29:52.188 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-12-17 11:29:54.638 [info] > git status -z -uall [2471ms] (cancelled)
+2024-12-17 11:30:00.780 [info] > git check-ignore -v -z --stdin [4ms]
+2024-12-17 11:30:07.661 [info] > git check-ignore -v -z --stdin [44ms]
+2024-12-17 11:30:20.134 [info] > git check-ignore -v -z --stdin [17ms]
+2024-12-17 11:30:20.460 [info] > git show --textconv :.git/COMMIT_EDITMSG [10ms]
+2024-12-17 11:30:20.476 [info] > git ls-files --stage -- /root/.git/COMMIT_EDITMSG [17ms]
+2024-12-17 11:30:33.975 [info] > git check-ignore -v -z --stdin [47ms]
+2024-12-17 11:30:37.033 [info] > git check-ignore -v -z --stdin [22ms]
+2024-12-17 11:30:58.941 [info] > git show --textconv :workspace/Website/src/textnode.py [11ms]
+2024-12-17 11:30:58.943 [info] > git ls-files --stage -- /root/workspace/Website/src/textnode.py [8ms]
+2024-12-17 11:31:00.452 [info] > git show --textconv :.git/COMMIT_EDITMSG [6ms]
+2024-12-17 11:31:00.457 [info] > git ls-files --stage -- /root/.git/COMMIT_EDITMSG [6ms]
+2024-12-17 11:31:02.493 [info] > git -c user.useConfigOnly=true commit --quiet [43689ms]
+2024-12-17 11:31:02.493 [info] Aborting commit due to empty commit message.
+2024-12-17 11:31:02.507 [info] > git config --get commit.template [5ms]
+2024-12-17 11:31:02.508 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-17 11:31:02.520 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-17 11:31:02.640 [info] > git show --textconv :workspace/Website/src/textnode.py [6ms]
+2024-12-17 11:31:02.646 [info] > git ls-files --stage -- /root/workspace/Website/src/textnode.py [7ms]
+2024-12-17 11:31:04.704 [info] > git status -z -uall [2191ms] (cancelled)
+2024-12-17 11:31:30.518 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [114ms]
+2024-12-17 11:31:30.525 [info] > git config --get commit.template [1ms]
+2024-12-17 11:31:30.537 [info] > git config --get commit.template [5ms]
+2024-12-17 11:31:30.538 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-17 11:31:30.553 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-12-17 11:31:32.697 [info] > git status -z -uall [2154ms] (cancelled)
+2024-12-17 11:31:33.218 [info] > git check-ignore -v -z --stdin [26ms]
+2024-12-17 11:31:33.562 [info] > git config --get commit.template [8ms]
+2024-12-17 11:31:33.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-17 11:31:33.575 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-12-17 11:31:35.278 [info] > git status -z -uall [1711ms] (cancelled)

@@ -1,0 +1,21 @@
+2024-12-15 19:55:27.775 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-15 19:55:27.776 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-15 19:55:27.776 [info] Experiment 'pythonTestAdapter' is active
+2024-12-15 19:55:27.776 [info] Native locator: Refresh started
+2024-12-15 19:55:27.776 [info] Native locator: Refresh started
+2024-12-15 19:55:27.860 [info] > pyenv which python
+2024-12-15 19:55:27.860 [info] cwd: .
+2024-12-15 19:55:30.435 [info] Python interpreter path: ./Asteroids/venv/bin/python
+2024-12-15 19:55:31.414 [info] > . ./Asteroids/venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariables.py
+2024-12-15 19:55:31.414 [info] shell: bash
+2024-12-15 19:55:31.590 [info] > /bin/python3 ~/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariables.py
+2024-12-15 19:55:31.590 [info] shell: bash
+2024-12-15 19:55:31.798 [info] Setting environment variable VIRTUAL_ENV in collection to /root/workspace/Asteroids/venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-12-15 19:55:31.798 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-12-15 19:55:31.798 [info] Prepending environment variable PS1 in collection with (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-12-15 19:55:31.798 [info] Prepending environment variable PATH in collection with /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/bash:/root/workspace/Asteroids/venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-12-15 19:55:31.804 [info] Send text to terminal: /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/bash/envVars.txt
+2024-12-15 19:55:34.059 [info] Starting Pylance language server.
+2024-12-15 19:55:37.280 [info] Send text to terminal: /root/workspace/Asteroids/venv/bin/python /root/workspace/Asteroids/main.py
+2024-12-15 19:55:38.162 [info] CreateEnv Trigger - Skipping for /root/workspace/Asteroids/main.py
+2024-12-15 19:55:58.798 [info] Native locator: Refresh finished in 33968 ms

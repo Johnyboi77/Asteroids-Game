@@ -1,0 +1,32 @@
+2024-12-15 19:55:19.159 [info] 
+
+
+
+
+2024-12-15 19:55:19.191 [info] Extension host agent started.
+2024-12-15 19:55:19.396 [info] [127.0.0.1][6f54e777][ManagementConnection] New connection established.
+2024-12-15 19:55:20.201 [info] [127.0.0.1][ad3499f7][ExtensionHostConnection] New connection established.
+2024-12-15 19:55:20.266 [info] [127.0.0.1][ad3499f7][ExtensionHostConnection] <542> Launched Extension Host Process.
+2024-12-15 19:55:28.660 [info] Getting Manifest... ms-python.debugpy
+2024-12-15 19:55:28.661 [info] Getting Manifest... ms-python.python
+2024-12-15 19:55:28.662 [info] Getting Manifest... ms-python.vscode-pylance
+2024-12-15 19:55:28.797 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-12-15 19:55:28.817 [info] Installing extension: ms-python.debugpy {"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-12-15 19:55:28.839 [info] Installing extension: ms-python.vscode-pylance {"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-12-15 19:55:31.734 [info] Getting Manifest... ms-python.python
+2024-12-15 19:55:32.754 [info] Getting Manifest... ms-python.python
+2024-12-15 19:55:42.886 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 11855ms.
+2024-12-15 19:55:45.282 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 10810ms.
+2024-12-15 19:55:54.839 [error] [File Watcher] Unexpected error: inotify_add_watch on '/root/.vscode-server/data/logs/20241120T230207/exthost1/ms-python.debugpy' failed: No such file or directory (EUNKNOWN) (path: /root)
+2024-12-15 19:55:54.840 [error] [File Watcher (universal)] inotify_add_watch on '/root/.vscode-server/data/logs/20241120T230207/exthost1/ms-python.debugpy' failed: No such file or directory
+2024-12-15 19:56:02.983 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.debugpy-2024.14.0-linux-x64: ms-python.debugpy
+2024-12-15 19:56:03.189 [info] Renamed to /root/.vscode-server/extensions/ms-python.debugpy-2024.14.0-linux-x64
+2024-12-15 19:56:03.384 [info] Marked extension as uninstalled ms-python.debugpy-2024.12.0-linux-x64
+2024-12-15 19:56:03.454 [info] Extension installed successfully: ms-python.debugpy file:///root/.vscode-server/extensions/extensions.json
+2024-12-15 19:56:08.613 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 9304ms.
+2024-12-15 19:56:15.850 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.python-2024.22.0-linux-x64: ms-python.python
+2024-12-15 19:56:16.218 [info] Renamed to /root/.vscode-server/extensions/ms-python.python-2024.22.0-linux-x64
+2024-12-15 19:56:16.521 [info] Marked extension as uninstalled ms-python.python-2024.20.0-linux-x64
+2024-12-15 19:56:16.547 [info] Extension installed successfully: ms-python.python file:///root/.vscode-server/extensions/extensions.json
+2024-12-15 19:56:21.609 [info] [127.0.0.1][6f54e777][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-12-15 19:56:22.065 [info] [127.0.0.1][ad3499f7][ExtensionHostConnection] <542> Extension Host Process exited with code: 0, signal: null.

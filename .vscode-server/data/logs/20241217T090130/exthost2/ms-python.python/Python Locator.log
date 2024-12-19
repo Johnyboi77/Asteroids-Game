@@ -1,0 +1,66 @@
+2024-12-17 11:06:37.650 [info] Starting Python Locator /root/.vscode-server/extensions/ms-python.python-2024.22.0-linux-x64/python-env-tools/bin/pet server
+2024-12-17 11:06:37.741 [info] Discovered env: /root/workspace/venv/bin/python
+2024-12-17 11:06:37.756 [info] Discovered env: /usr/bin/python3
+2024-12-17 11:06:37.757 [info] Discovered env: /bin/python3
+2024-12-17 11:06:37.759 [info] Env ("/root/workspace/Asteroids/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/root/workspace/Asteroids/venv/bin/python", prefix: "/root/workspace/Asteroids/venv", version: "3.12.3.final.0", is64_bit: true, symlinks: Some(["/root/workspace/Asteroids/venv/bin/python", "/root/workspace/Asteroids/venv/bin/python3", "/root/workspace/Asteroids/venv/bin/python3.12"]) } and reported as None
+2024-12-17 11:06:37.759 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-12-17 11:06:42.248 [info] Locator Conda took 6.062134643s
+2024-12-17 11:06:42.248 [info] Locator Homebrew took 1.340562ms
+2024-12-17 11:06:42.248 [info] Locator LinuxGlobal took 156.855458ms
+2024-12-17 11:06:42.249 [info] Locator PipEnv took 411.967µs
+2024-12-17 11:06:42.249 [info] Locator Poetry took 46.484824ms
+2024-12-17 11:06:42.249 [info] Locator PyEnv took 38.669969ms
+2024-12-17 11:06:42.250 [info] Locator Venv took 171.229µs
+2024-12-17 11:06:42.250 [info] Locator VirtualEnv took 22.421µs
+2024-12-17 11:06:42.250 [info] Locator VirtualEnvWrapper took 30.922µs
+2024-12-17 11:06:42.251 [info] Locator GlobalVirtualEnvs took 5.705556ms
+2024-12-17 11:06:42.251 [info] Locator Locators took 6.062834172s
+2024-12-17 11:06:42.251 [info] Locator Path took 361.135337ms
+2024-12-17 11:06:42.251 [info] Locator Workspaces took 123.663629ms
+2024-12-17 11:06:42.251 [info] Refresh completed in 6063ms
+2024-12-17 11:07:08.527 [info] Env ("/root/workspace/Asteroids/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/root/workspace/Asteroids/venv/bin/python", prefix: "/root/workspace/Asteroids/venv", version: "3.12.3.final.0", is64_bit: true, symlinks: Some(["/root/workspace/Asteroids/venv/bin/python", "/root/workspace/Asteroids/venv/bin/python3", "/root/workspace/Asteroids/venv/bin/python3.12"]) } and reported as None
+2024-12-17 11:07:08.528 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-12-17 11:07:42.169 [info] Env ("/root/workspace/Asteroids/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/root/workspace/Asteroids/venv/bin/python", prefix: "/root/workspace/Asteroids/venv", version: "3.12.3.final.0", is64_bit: true, symlinks: Some(["/root/workspace/Asteroids/venv/bin/python", "/root/workspace/Asteroids/venv/bin/python3", "/root/workspace/Asteroids/venv/bin/python3.12"]) } and reported as None
+2024-12-17 11:07:42.170 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-12-17 11:08:16.181 [info] Env ("/root/workspace/Asteroids/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/root/workspace/Asteroids/venv/bin/python", prefix: "/root/workspace/Asteroids/venv", version: "3.12.3.final.0", is64_bit: true, symlinks: Some(["/root/workspace/Asteroids/venv/bin/python", "/root/workspace/Asteroids/venv/bin/python3", "/root/workspace/Asteroids/venv/bin/python3.12"]) } and reported as None
+2024-12-17 11:08:16.182 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-12-17 11:09:47.745 [info] Env ("/root/workspace/Asteroids/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/root/workspace/Asteroids/venv/bin/python", prefix: "/root/workspace/Asteroids/venv", version: "3.12.3.final.0", is64_bit: true, symlinks: Some(["/root/workspace/Asteroids/venv/bin/python", "/root/workspace/Asteroids/venv/bin/python3", "/root/workspace/Asteroids/venv/bin/python3.12"]) } and reported as None
+2024-12-17 11:09:47.745 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-12-17 11:12:40.943 [info] Env ("/root/workspace/Asteroids/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/root/workspace/Asteroids/venv/bin/python", prefix: "/root/workspace/Asteroids/venv", version: "3.12.3.final.0", is64_bit: true, symlinks: Some(["/root/workspace/Asteroids/venv/bin/python", "/root/workspace/Asteroids/venv/bin/python3", "/root/workspace/Asteroids/venv/bin/python3.12"]) } and reported as None
+2024-12-17 11:12:40.944 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-12-17 11:14:07.405 [info] Env ("/root/workspace/Asteroids/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/root/workspace/Asteroids/venv/bin/python", prefix: "/root/workspace/Asteroids/venv", version: "3.12.3.final.0", is64_bit: true, symlinks: Some(["/root/workspace/Asteroids/venv/bin/python", "/root/workspace/Asteroids/venv/bin/python3", "/root/workspace/Asteroids/venv/bin/python3.12"]) } and reported as None
+2024-12-17 11:14:07.406 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-12-17 11:19:30.837 [info] Env ("/root/workspace/Asteroids/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/root/workspace/Asteroids/venv/bin/python", prefix: "/root/workspace/Asteroids/venv", version: "3.12.3.final.0", is64_bit: true, symlinks: Some(["/root/workspace/Asteroids/venv/bin/python", "/root/workspace/Asteroids/venv/bin/python3", "/root/workspace/Asteroids/venv/bin/python3.12"]) } and reported as None
+2024-12-17 11:19:30.838 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-12-17 11:21:00.228 [info] Env ("/root/workspace/Asteroids/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/root/workspace/Asteroids/venv/bin/python", prefix: "/root/workspace/Asteroids/venv", version: "3.12.3.final.0", is64_bit: true, symlinks: Some(["/root/workspace/Asteroids/venv/bin/python", "/root/workspace/Asteroids/venv/bin/python3", "/root/workspace/Asteroids/venv/bin/python3.12"]) } and reported as None
+2024-12-17 11:21:00.230 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-12-17 11:23:25.151 [info] Env ("/root/workspace/Asteroids/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/root/workspace/Asteroids/venv/bin/python", prefix: "/root/workspace/Asteroids/venv", version: "3.12.3.final.0", is64_bit: true, symlinks: Some(["/root/workspace/Asteroids/venv/bin/python", "/root/workspace/Asteroids/venv/bin/python3", "/root/workspace/Asteroids/venv/bin/python3.12"]) } and reported as None
+2024-12-17 11:23:25.151 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-12-17 11:25:01.236 [info] Env ("/root/workspace/Asteroids/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/root/workspace/Asteroids/venv/bin/python", prefix: "/root/workspace/Asteroids/venv", version: "3.12.3.final.0", is64_bit: true, symlinks: Some(["/root/workspace/Asteroids/venv/bin/python", "/root/workspace/Asteroids/venv/bin/python3", "/root/workspace/Asteroids/venv/bin/python3.12"]) } and reported as None
+2024-12-17 11:25:01.237 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-12-17 11:28:28.877 [info] Env ("/root/workspace/Asteroids/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/root/workspace/Asteroids/venv/bin/python", prefix: "/root/workspace/Asteroids/venv", version: "3.12.3.final.0", is64_bit: true, symlinks: Some(["/root/workspace/Asteroids/venv/bin/python", "/root/workspace/Asteroids/venv/bin/python3", "/root/workspace/Asteroids/venv/bin/python3.12"]) } and reported as None
+2024-12-17 11:28:28.904 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-12-17 11:29:28.034 [info] Starting Python Locator /root/.vscode-server/extensions/ms-python.python-2024.22.0-linux-x64/python-env-tools/bin/pet server
+2024-12-17 11:29:33.194 [info] Discovered env: /bin/python3
+2024-12-17 11:29:33.211 [info] Discovered env: /usr/bin/python3
+2024-12-17 11:29:33.222 [info] Discovered env: /root/workspace/venv/bin/python
+2024-12-17 11:29:33.244 [info] Env ("/root/workspace/Asteroids/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/root/workspace/Asteroids/venv/bin/python", prefix: "/root/workspace/Asteroids/venv", version: "3.12.3.final.0", is64_bit: true, symlinks: Some(["/root/workspace/Asteroids/venv/bin/python", "/root/workspace/Asteroids/venv/bin/python3", "/root/workspace/Asteroids/venv/bin/python3.12"]) } and reported as None
+2024-12-17 11:29:33.247 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-12-17 11:29:37.159 [info] Locator Conda took 11.686141005s
+2024-12-17 11:29:37.159 [info] Locator Homebrew took 111.767µs
+2024-12-17 11:29:37.159 [info] Locator LinuxGlobal took 100.838773ms
+2024-12-17 11:29:37.159 [info] Locator PipEnv took 26.717µs
+2024-12-17 11:29:37.159 [info] Locator Poetry took 86.602985ms
+2024-12-17 11:29:37.159 [info] Locator PyEnv took 79.838419ms
+2024-12-17 11:29:37.159 [info] Locator Venv took 27.99µs
+2024-12-17 11:29:37.159 [info] Locator VirtualEnv took 681.037µs
+2024-12-17 11:29:37.159 [info] Locator VirtualEnvWrapper took 494.036µs
+2024-12-17 11:29:37.159 [info] Locator GlobalVirtualEnvs took 2.440132ms
+2024-12-17 11:29:37.159 [info] Locator Locators took 11.68740874s
+2024-12-17 11:29:37.159 [info] Locator Path took 562.149347ms
+2024-12-17 11:29:37.159 [info] Locator Workspaces took 207.097738ms
+2024-12-17 11:29:37.160 [info] Refresh completed in 11687ms
+2024-12-17 11:30:07.218 [info] Env ("/root/workspace/Asteroids/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/root/workspace/Asteroids/venv/bin/python", prefix: "/root/workspace/Asteroids/venv", version: "3.12.3.final.0", is64_bit: true, symlinks: Some(["/root/workspace/Asteroids/venv/bin/python", "/root/workspace/Asteroids/venv/bin/python3", "/root/workspace/Asteroids/venv/bin/python3.12"]) } and reported as None
+2024-12-17 11:30:07.219 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python
+2024-12-17 11:30:58.835 [info] Env ("/root/workspace/Asteroids/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/root/workspace/Asteroids/venv/bin/python", prefix: "/root/workspace/Asteroids/venv", version: "3.12.3.final.0", is64_bit: true, symlinks: Some(["/root/workspace/Asteroids/venv/bin/python", "/root/workspace/Asteroids/venv/bin/python3", "/root/workspace/Asteroids/venv/bin/python3.12"]) } and reported as None
+2024-12-17 11:30:58.836 [info] Resolved Python Environment /root/workspace/Asteroids/venv/bin/python

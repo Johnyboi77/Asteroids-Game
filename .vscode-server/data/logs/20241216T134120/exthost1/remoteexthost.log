@@ -1,0 +1,11 @@
+2024-12-16 13:41:26.598 [info] Extension host with pid 11339 started
+2024-12-16 13:41:26.626 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/12378d868cd1f73fdeb55096921fa0c7/vscode.lock': Lock acquired.
+2024-12-16 13:41:26.847 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-16 13:41:26.851 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-12-16 13:41:27.358 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-16 13:41:27.360 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-16 13:41:27.360 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-16 13:41:28.009 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-16 13:41:28.279 [info] Extension host terminating: received terminate message from renderer
+2024-12-16 13:41:28.280 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/12378d868cd1f73fdeb55096921fa0c7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-12-16 13:41:28.309 [info] Extension host with pid 11339 exiting with code 0

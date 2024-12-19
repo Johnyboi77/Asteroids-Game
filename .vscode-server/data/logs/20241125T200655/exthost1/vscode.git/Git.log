@@ -1,0 +1,60 @@
+2024-11-25 20:07:02.992 [info] [main] Log level: Info
+2024-11-25 20:07:02.993 [info] [main] Validating found git in: "git"
+2024-11-25 20:07:02.993 [info] [main] Using git "2.43.0" from "git"
+2024-11-25 20:07:02.993 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-25 20:07:02.993 [info] > git rev-parse --show-toplevel [106ms]
+2024-11-25 20:07:02.993 [info] > git rev-parse --git-dir --git-common-dir [81ms]
+2024-11-25 20:07:02.993 [info] [Model][openRepository] Opened repository: /root
+2024-11-25 20:07:02.993 [info] > git rev-parse --show-toplevel [24ms]
+2024-11-25 20:07:02.993 [info] > git config --get commit.template [29ms]
+2024-11-25 20:07:03.013 [info] > git rev-parse --git-dir --git-common-dir [14ms]
+2024-11-25 20:07:03.022 [info] [Model][openRepository] Opened repository: /root/workspace/Asteroids
+2024-11-25 20:07:03.074 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [68ms]
+2024-11-25 20:07:03.147 [info] > git rev-parse --show-toplevel [104ms]
+2024-11-25 20:07:03.149 [info] > git config --get commit.template [109ms]
+2024-11-25 20:07:03.179 [info] > git rev-parse --show-toplevel [21ms]
+2024-11-25 20:07:03.188 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-25 20:07:03.189 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [52ms]
+2024-11-25 20:07:03.204 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2024-11-25 20:07:03.241 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2024-11-25 20:07:03.243 [info] > git status -z -uall [25ms]
+2024-11-25 20:07:03.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2024-11-25 20:07:03.309 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-11-25 20:07:03.310 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-25 20:07:03.322 [info] > git config --get commit.template [28ms]
+2024-11-25 20:07:03.340 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-11-25 20:07:03.367 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-25 20:07:03.371 [info] > git status -z -uall [19ms]
+2024-11-25 20:07:03.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-11-25 20:07:03.416 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-11-25 20:07:03.416 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-25 20:07:03.432 [info] > git reflog main --grep-reflog=branch: Created from *. [111ms]
+2024-11-25 20:07:03.447 [info] > git reflog main --grep-reflog=branch: Created from *. [18ms]
+2024-11-25 20:07:03.462 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [17ms]
+2024-11-25 20:07:03.463 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-25 20:07:03.463 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-25 20:07:03.579 [info] > git merge-base refs/heads/main refs/remotes/origin/main [106ms]
+2024-11-25 20:07:03.588 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [130ms]
+2024-11-25 20:07:03.588 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-25 20:07:03.588 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-25 20:07:03.600 [info] > git diff --name-status -z --diff-filter=ADMR 22a7325bf8ea7dc087e6275305b9eaca22021c79...refs/remotes/origin/main [12ms]
+2024-11-25 20:07:03.690 [info] > git merge-base refs/heads/main refs/remotes/origin/main [94ms]
+2024-11-25 20:07:03.698 [info] > git diff --name-status -z --diff-filter=ADMR 22a7325bf8ea7dc087e6275305b9eaca22021c79...refs/remotes/origin/main [3ms]
+2024-11-25 20:07:04.421 [info] > git status -z -uall [1333ms]
+2024-11-25 20:07:04.421 [info] > git show --textconv :main.py [235ms]
+2024-11-25 20:07:04.421 [info] > git check-ignore -v -z --stdin [67ms]
+2024-11-25 20:07:04.423 [info] > git ls-files --stage -- /root/workspace/Asteroids/main.py [225ms]
+2024-11-25 20:07:04.514 [info] > git check-ignore -v -z --stdin [101ms]
+2024-11-25 20:07:04.516 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [41ms]
+2024-11-25 20:07:04.524 [info] > git cat-file -s 17d5e952fbf6a2f5f524b51d3888d7b3d5d0e6ee [94ms]
+2024-11-25 20:07:04.528 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-11-25 20:07:04.528 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-25 20:07:04.535 [info] > git config --get commit.template [21ms]
+2024-11-25 20:07:04.698 [info] > git reflog main --grep-reflog=branch: Created from *. [164ms]
+2024-11-25 20:07:04.837 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [134ms]
+2024-11-25 20:07:04.837 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-25 20:07:04.838 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-25 20:07:04.839 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [151ms]
+2024-11-25 20:07:04.858 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-25 20:07:05.160 [info] > git status -z -uall [313ms]
+2024-11-25 20:07:13.078 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/workspace/Asteroids/main.py [9110ms]

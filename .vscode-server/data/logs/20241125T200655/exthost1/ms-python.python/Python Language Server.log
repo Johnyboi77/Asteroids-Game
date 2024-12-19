@@ -1,0 +1,22 @@
+2024-11-25 20:07:04.912 [info] (Client) Pylance async client (2024.11.3) started with python extension (2024.20.0)
+2024-11-25 20:07:05.624 [info] [Info  - 8:07:05 PM] (1662) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-11-25 20:07:05.630 [info] [Info  - 8:07:05 PM] (1662) Pylance language server 2024.11.3 (pyright version 1.1.386, commit 4180fa21) starting
+2024-11-25 20:07:05.631 [info] [Info  - 8:07:05 PM] (1662) Starting service instance "workspace"
+2024-11-25 20:07:05.782 [info] [Info  - 8:07:05 PM] (1662) Setting environmentName for service "workspace": "3.12.3 (venv venv)"
+2024-11-25 20:07:05.790 [info] [Info  - 8:07:05 PM] (1662) Setting pythonPath for service "workspace": "/root/workspace/Asteroids/venv/bin/python"
+2024-11-25 20:07:05.790 [info] [Info  - 8:07:05 PM] (1662) No include entries specified; assuming /root/workspace
+2024-11-25 20:07:05.790 [info] [Info  - 8:07:05 PM] (1662) Auto-excluding **/node_modules
+2024-11-25 20:07:05.790 [info] [Info  - 8:07:05 PM] (1662) Auto-excluding **/__pycache__
+2024-11-25 20:07:05.790 [info] [Info  - 8:07:05 PM] (1662) Auto-excluding **/.*
+2024-11-25 20:07:06.037 [info] [Info  - 8:07:06 PM] (1662) Assuming Python version 3.12.3.final.0
+2024-11-25 20:07:06.114 [info] [Info  - 8:07:06 PM] (1662) Auto-excluding /root/workspace/Asteroids/venv
+2024-11-25 20:07:06.119 [info] [Info  - 8:07:06 PM] (1662) Auto-excluding /root/workspace/venv
+2024-11-25 20:07:06.133 [info] [Info  - 8:07:06 PM] (1662) Found 10 source files
+2024-11-25 20:07:07.606 [info] [Info  - 8:07:07 PM] (1662) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-11-25 20:07:07.614 [info] [Info  - 8:07:07 PM] (1662) Background analysis(1) started
+2024-11-25 20:07:07.792 [info] [Info  - 8:07:07 PM] (1662) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3/dist (index)
+2024-11-25 20:07:07.793 [info] [Info  - 8:07:07 PM] (1662) Indexing(2) started
+2024-11-25 20:07:09.489 [info] [Info  - 8:07:09 PM] (1662) scanned(2) 11 files over 1 exec env
+2024-11-25 20:07:10.237 [info] [Info  - 8:07:10 PM] (1662) indexed(2) 11 files over 1 exec env
+2024-11-25 20:07:10.342 [info] [Info  - 8:07:10 PM] (1662) Indexing finished(2).
+2024-11-25 20:07:10.684 [info] [Info  - 8:07:10 PM] (1662) [BG(1)] Long operation: SemanticTokens full at file:///root/workspace/Asteroids/main.py (2808ms)

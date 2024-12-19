@@ -1,0 +1,49 @@
+2024-12-16 12:38:59.551 [info] 
+
+
+
+
+2024-12-16 12:38:59.578 [info] Extension host agent started.
+2024-12-16 12:38:59.740 [info] [127.0.0.1][1a2bf223][ManagementConnection] New connection established.
+2024-12-16 12:38:59.817 [info] Deleted uninstalled extension from disk ms-python.debugpy /root/.vscode-server/extensions/ms-python.debugpy-2024.12.0-linux-x64
+2024-12-16 12:38:59.818 [info] Deleted uninstalled extension from disk ms-python.python /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64
+2024-12-16 12:39:00.159 [info] [127.0.0.1][373b4c41][ExtensionHostConnection] New connection established.
+2024-12-16 12:39:00.180 [info] [127.0.0.1][373b4c41][ExtensionHostConnection] <532> Launched Extension Host Process.
+2024-12-16 12:39:09.967 [info] Getting Manifest... ms-python.vscode-pylance
+2024-12-16 12:39:10.229 [info] Installing extension: ms-python.vscode-pylance {"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-12-16 12:39:12.338 [info] Getting Manifest... ms-python.python
+2024-12-16 12:39:19.497 [error] [File Watcher] Unexpected error: inotify_add_watch on '/root/.vscode-server/data/logs/20241121T092118/exthost1/output_logging_20241121T092122' failed: No such file or directory (EUNKNOWN) (path: /root)
+2024-12-16 12:39:19.500 [error] [File Watcher (universal)] inotify_add_watch on '/root/.vscode-server/data/logs/20241121T092118/exthost1/output_logging_20241121T092122' failed: No such file or directory
+2024-12-16 12:39:21.779 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 4176ms.
+2024-12-16 12:39:42.335 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1: ms-python.vscode-pylance
+2024-12-16 12:39:42.451 [info] Renamed to /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1
+2024-12-16 12:39:42.531 [info] Marked extension as uninstalled ms-python.vscode-pylance-2024.11.3
+2024-12-16 12:39:42.555 [info] Extension installed successfully: ms-python.vscode-pylance file:///root/.vscode-server/extensions/extensions.json
+2024-12-16 13:37:59.270 [info] Getting Manifest... eamodio.gitlens
+2024-12-16 13:37:59.910 [info] Installing extension: eamodio.gitlens {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-12-16 13:38:26.692 [info] Extension signature verification result for eamodio.gitlens: Success. Executed: true. Duration: 2381ms.
+2024-12-16 13:38:28.306 [info] Extracted extension to file:///root/.vscode-server/extensions/eamodio.gitlens-16.0.5: eamodio.gitlens
+2024-12-16 13:38:28.333 [info] Renamed to /root/.vscode-server/extensions/eamodio.gitlens-16.0.5
+2024-12-16 13:38:28.393 [info] Extension installed successfully: eamodio.gitlens file:///root/.vscode-server/extensions/extensions.json
+2024-12-16 13:38:47.624 [info] Getting Manifest... esbenp.prettier-vscode
+2024-12-16 13:38:47.831 [info] Installing extension: esbenp.prettier-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-12-16 13:38:51.692 [info] Extension signature verification result for esbenp.prettier-vscode: Success. Executed: true. Duration: 1090ms.
+2024-12-16 13:38:52.022 [info] Extracted extension to file:///root/.vscode-server/extensions/esbenp.prettier-vscode-11.0.0: esbenp.prettier-vscode
+2024-12-16 13:38:52.037 [info] Renamed to /root/.vscode-server/extensions/esbenp.prettier-vscode-11.0.0
+2024-12-16 13:38:52.076 [info] Extension installed successfully: esbenp.prettier-vscode file:///root/.vscode-server/extensions/extensions.json
+2024-12-16 13:39:59.111 [info] Getting Manifest... visualstudioexptteam.vscodeintellicode
+2024-12-16 13:39:59.266 [info] Installing extension: visualstudioexptteam.vscodeintellicode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-12-16 13:39:59.599 [info] Getting Manifest... visualstudioexptteam.intellicode-api-usage-examples
+2024-12-16 13:39:59.688 [info] Installing extension: visualstudioexptteam.intellicode-api-usage-examples {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64","dependecyOrPackExtensionInstall":true},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-12-16 13:40:07.548 [info] Extension signature verification result for visualstudioexptteam.intellicode-api-usage-examples: Success. Executed: true. Duration: 1094ms.
+2024-12-16 13:40:08.198 [info] Extracted extension to file:///root/.vscode-server/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9: visualstudioexptteam.intellicode-api-usage-examples
+2024-12-16 13:40:08.212 [info] Renamed to /root/.vscode-server/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9
+2024-12-16 13:40:09.597 [error] [network] #28: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST read ECONNRESET
+2024-12-16 13:40:23.032 [info] Getting Manifest... ethansk.restore-terminals
+2024-12-16 13:40:23.252 [info] Installing extension: ethansk.restore-terminals {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-12-16 13:40:25.698 [info] Extension signature verification result for ethansk.restore-terminals: Success. Executed: true. Duration: 1133ms.
+2024-12-16 13:40:25.788 [info] Extracted extension to file:///root/.vscode-server/extensions/ethansk.restore-terminals-1.1.8: ethansk.restore-terminals
+2024-12-16 13:40:25.803 [info] Renamed to /root/.vscode-server/extensions/ethansk.restore-terminals-1.1.8
+2024-12-16 13:40:25.847 [info] Extension installed successfully: ethansk.restore-terminals file:///root/.vscode-server/extensions/extensions.json
+2024-12-16 13:40:56.270 [info] [127.0.0.1][1a2bf223][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-12-16 13:40:56.667 [info] [127.0.0.1][373b4c41][ExtensionHostConnection] <532> Extension Host Process exited with code: 0, signal: null.

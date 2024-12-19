@@ -1,0 +1,49 @@
+2024-12-17 09:02:05.677 [info] Extension host with pid 787 started
+2024-12-17 09:02:05.702 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/12378d868cd1f73fdeb55096921fa0c7/vscode.lock': Lock acquired.
+2024-12-17 09:02:05.786 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-17 09:02:05.787 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-12-17 09:02:06.789 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-17 09:02:06.877 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-17 09:02:06.878 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-17 09:02:07.335 [info] Eager extensions activated
+2024-12-17 09:02:07.336 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 09:02:07.338 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 09:02:07.341 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 09:02:07.342 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 09:02:07.343 [info] ExtensionService#_doActivateExtension EthanSK.restore-terminals, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 09:02:36.980 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-12-17 09:05:48.063 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-12-17 11:06:05.694 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-12-17 11:06:35.277 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-12-17 11:06:35.278 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2024-12-17 11:06:36.675 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-12-17 11:06:36.676 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-12-17 11:29:22.857 [info] Extension host with pid 40531 started
+2024-12-17 11:29:22.858 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/12378d868cd1f73fdeb55096921fa0c7/vscode.lock'
+2024-12-17 11:29:22.877 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/12378d868cd1f73fdeb55096921fa0c7/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-12-17 11:29:22.882 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/12378d868cd1f73fdeb55096921fa0c7/vscode.lock': The pid 787 appears to be gone.
+2024-12-17 11:29:22.882 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/12378d868cd1f73fdeb55096921fa0c7/vscode.lock': Deleting a stale lock.
+2024-12-17 11:29:22.961 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-17 11:29:22.965 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-12-17 11:29:22.966 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onFileSystem:git', root cause: vscode.git
+2024-12-17 11:29:22.967 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-12-17 11:29:22.969 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onView:gitlens.views.home'
+2024-12-17 11:29:22.970 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-12-17 11:29:22.971 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-12-17 11:29:22.972 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-12-17 11:29:22.973 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2024-12-17 11:29:24.657 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/12378d868cd1f73fdeb55096921fa0c7/vscode.lock': Lock acquired.
+2024-12-17 11:29:25.284 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onFileSystem:git'
+2024-12-17 11:29:25.285 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-17 11:29:26.273 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-12-17 11:29:26.274 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-12-17 11:29:27.410 [info] Eager extensions activated
+2024-12-17 11:29:27.411 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 11:29:27.412 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 11:29:27.412 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 11:29:27.413 [info] ExtensionService#_doActivateExtension EthanSK.restore-terminals, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 11:29:50.500 [warning] [Decorations] CAPPING events from decorations provider vscode.git 19898
+2024-12-17 11:29:53.370 [warning] [Decorations] CAPPING events from decorations provider vscode.git 19898
+2024-12-17 11:31:03.182 [warning] [Decorations] CAPPING events from decorations provider vscode.git 19898
+2024-12-17 11:31:31.481 [warning] [Decorations] CAPPING events from decorations provider vscode.git 20080
+2024-12-17 11:31:34.137 [warning] [Decorations] CAPPING events from decorations provider vscode.git 19985

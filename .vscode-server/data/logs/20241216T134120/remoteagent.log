@@ -1,0 +1,13 @@
+2024-12-16 13:41:20.338 [info] 
+
+
+
+
+2024-12-16 13:41:20.361 [info] Extension host agent started.
+2024-12-16 13:41:20.588 [info] Deleted uninstalled extension from disk ms-python.vscode-pylance /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.3
+2024-12-16 13:41:20.608 [info] [127.0.0.1][d0328606][ManagementConnection] New connection established.
+2024-12-16 13:41:20.848 [info] [127.0.0.1][3cf9030e][ExtensionHostConnection] New connection established.
+2024-12-16 13:41:21.072 [info] [127.0.0.1][3cf9030e][ExtensionHostConnection] <11339> Launched Extension Host Process.
+2024-12-16 13:41:22.786 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo ENOTFOUND mobile.events.data.microsoft.com
+2024-12-16 13:41:28.263 [info] [127.0.0.1][d0328606][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-12-16 13:41:28.332 [info] [127.0.0.1][3cf9030e][ExtensionHostConnection] <11339> Extension Host Process exited with code: 0, signal: null.
